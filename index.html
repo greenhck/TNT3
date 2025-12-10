@@ -1,58 +1,390 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Opening RubyPlayer...</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script>
-        // Get the 'data' parameter from the current URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const data = urlParams.get('data');
-        const customSchemeUrl = "rubyplayer://play?data=" + (data ? data : "");
-        window.onload = function () {
-            if (data) {
-                document.getElementById('status').innerText = "Launching RubyPlayer...";
-                // Attempt to open the app automatically via custom scheme fallback
-                window.location.href = customSchemeUrl;
-            } else {
-                document.getElementById('status').innerText = "Error: Invalid link.";
-            }
-        };
-        function forceOpen() {
-            if (data) {
-                // Force open via custom scheme
-                window.location.href = customSchemeUrl;
-            }
-        }
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RubyPlayer - Next Gen IPTV</title>
+    <meta name="description" content="Professional IPTV Player for Android Mobile and TV. Secure, Fast, and 4K Ready.">
     <style>
+        :root {
+            --primary: #e50914;
+            --bg: #0f0f0f;
+            --surface: #1a1a1a;
+            --text: #ffffff;
+            --text-secondary: #aaaaaa;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
-            font-family: sans-serif;
-            text-align: center;
-            padding: 50px;
-            background: #1a1a1a;
-            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
-        .btn {
-            display: inline-block;
-            background: #e50914;
-            color: white;
-            padding: 15px 30px;
+        /* --- Header --- */
+        header {
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background: rgba(15, 15, 15, 0.9);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--primary);
+            letter-spacing: -1px;
             text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            margin-top: 20px;
-            cursor: pointer;
         }
-        p {
-            color: #cccccc;
+        .logo span {
+            color: var(--text);
+        }
+        /* --- Hero Section --- */
+        .hero {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 120px 20px 80px;
+            background: radial-gradient(circle at center, #2a1010 0%, #0f0f0f 70%);
+        }
+        h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            max-width: 800px;
+        }
+        h1 span {
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-image: linear-gradient(45deg, #e50914, #ff5b64);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        .btn-download {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--primary);
+            color: white;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 20px rgba(229, 9, 20, 0.4);
+        }
+        .btn-download:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(229, 9, 20, 0.6);
+        }
+        .btn-download:active {
+            transform: scale(0.98);
+        }
+        /* --- Mockup (CSS only) --- */
+        .mockup-container {
+            margin-top: 60px;
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16/9;
+            background: #000;
+            border-radius: 20px;
+            border: 4px solid #333;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* --- Features --- */
+        .features {
+            padding: 80px 5%;
+            background: var(--surface);
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .feature-card {
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            transition: transform 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+        }
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .feature-desc {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        /* --- Footer --- */
+        footer {
+            background: #0a0a0a;
+            padding: 60px 0 20px;
+            border-top: 1px solid #222;
+            margin-top: auto;
+        }
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto 40px;
+            padding: 0 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+        }
+        .footer-col h3 {
+            color: var(--text);
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .footer-col p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .footer-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: color 0.2s;
+            margin-bottom: 10px;
+        }
+        .footer-link:hover {
+            color: var(--primary);
+        }
+        .telegram-icon {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+        }
+        .legal-text {
+            border-top: 1px solid #222;
+            padding-top: 20px;
+            text-align: center;
+            color: #555;
+            font-size: 0.8rem;
+            margin: 0 5%;
+        }
+        /* --- TV Optimizations --- */
+        @media (min-width: 1400px) {
+            h1 {
+                font-size: 5rem;
+            }
+            .hero {
+                padding-bottom: 50px;
+            }
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            .mockup-container {
+                border-width: 2px;
+            }
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .footer-link {
+                justify-content: center;
+            }
+        }
+        /* --- Deep Link Overlay --- */
+        #deeplink-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            z-index: 1000;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--surface);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .deep-btn {
+            margin-top: 30px;
+            background: transparent;
+            border: 2px solid var(--text);
         }
     </style>
 </head>
 <body>
-    <h1>RubyPlayer</h1>
-    <p id="status">Waiting...</p>
-    <!-- Button manually triggers the custom scheme -->
-    <div class="btn" onclick="forceOpen()">Open in App</div>
-    <p style="font-size: 12px; margin-top: 30px; opacity: 0.5;">If it doesn't open, ensure RubyPlayer is installed.</p>
+    <!-- Landing Page Content -->
+    <header>
+        <a href="#" class="logo">Ruby<span>Player</span></a>
+        <a href="https://drive.usercontent.google.com/download?id=1lslTrdQBH8hoF5SfN_E5GUZMBR6yZY2P&export=download&authuser=0"
+            class="btn-download" style="padding: 10px 25px; font-size: 0.9rem;">Download</a>
+    </header>
+    <section class="hero">
+        <h1>Next Generation <span>IPTV Player</span></h1>
+        <p class="subtitle">Experience your favorite streams with secure encryption, 4K HDR support, and a beautiful
+            interface designed for both Mobile and TV.</p>
+        <a href="https://drive.usercontent.google.com/download?id=1lslTrdQBH8hoF5SfN_E5GUZMBR6yZY2P&export=download&authuser=0"
+            class="btn-download">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z" />
+            </svg>
+            Download Free App
+        </a>
+        <div class="mockup-container">
+            <div
+                style="width: 100%; height: 100%; background: linear-gradient(135deg, #111, #222); display: flex; align-items: center; justify-content: center;">
+                <div style="text-align: center;">
+                    <div style="font-size: 4rem; color: #333; margin-bottom: 10px;">►</div>
+                    <div style="color: #444;">Immersive Playback</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <div class="feature-title">Secure Sharing</div>
+                <div class="feature-desc">Share channels safely with encrypted deep links that only work within the app.
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📺</div>
+                <div class="feature-title">TV Optimized</div>
+                <div class="feature-desc">Fully compatible with Android TV remote controls and Leanback launcher.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <div class="feature-title">Lightning Fast</div>
+                <div class="feature-desc">Instant stream loading with support for HLS, DASH, and ClearKey DRM.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <div class="feature-title">Modern Design</div>
+                <div class="feature-desc">Beautiful dark interface with rich metadata and smooth animations.</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>About RubyPlayer</h3>
+                <p>A cutting-edge media player built for performance and privacy. Enjoy your media without compromises.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h3>Credits</h3>
+                <p>Special thanks & Invested by<br><strong style="color: white;">Mr. Deepak Singh</strong></p>
+                <a href="https://t.me/lovelyakash41" class="footer-link">
+                    <!-- Telegram Icon -->
+                    <svg class="telegram-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.638z" />
+                    </svg>
+                    Created by @lovelyakash41
+                </a>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <p style="font-size: 0.85rem;">RubyPlayer is strictly a media player. We do not provide, host, or sell
+                    any playlists or content. Users must provide their own content. We do not endorse streaming
+                    copyright-protected material without permission.</p>
+            </div>
+        </div>
+        <div class="legal-text">
+            &copy; 2024 RubyPlayer. All rights reserved.
+        </div>
+    </footer>
+    <!-- Deep Link Overlay -->
+    <div id="deeplink-overlay">
+        <div class="spinner"></div>
+        <h2>Opening Shared Channel...</h2>
+        <p style="color: #aaa; margin-top: 10px; max-width: 400px; margin-left: auto; margin-right: auto;">
+            RubyPlayer should open automatically. If not, tap the button below.
+        </p>
+        <button id="btn-force" class="btn-download deep-btn" onclick="forceOpen()">Open in App</button>
+        <p style="margin-top: 30px; font-size: 0.9rem;">Don't have the app? <a
+                href="https://drive.usercontent.google.com/download?id=1lslTrdQBH8hoF5SfN_E5GUZMBR6yZY2P&export=download&authuser=0"
+                style="color: var(--primary);">Download here</a></p>
+    </div>
+    <script>
+        // Check for deep link data
+        const urlParams = new URLSearchParams(window.location.search);
+        const data = urlParams.get('data');
+        const customSchemeUrl = "rubyplayer://play?data=" + (data ? data : "");
+        if (data) {
+            // Show overlay, hide main content scroll
+            document.getElementById('deeplink-overlay').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+            // Auto-redirect attempts
+            setTimeout(function () {
+                window.location.href = customSchemeUrl;
+            }, 500);
+            // Backup intent attempt
+            setTimeout(function () {
+                window.location.href = "intent://play?data=" + data + "#Intent;scheme=rubyplayer;package=com.niet.rubyplayer;end";
+            }, 1000);
+        }
+        function forceOpen() {
+            if (data) {
+                window.location.href = customSchemeUrl;
+            }
+        }
+    </script>
 </body>
 </html>
