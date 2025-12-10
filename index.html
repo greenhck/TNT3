@@ -329,7 +329,7 @@
             </div>
             <div class="footer-col">
                 <h3>Credits</h3>
-                <p>Special thanks & Invested by<br><strong style="color: white;">Mr. Deepak Singh</strong></p>
+                <p>Concept & Invention by<br><strong style="color: white;">Mr. Deepak Singh</strong></p>
                 <a href="https://t.me/lovelyakash41" class="footer-link">
                     <!-- Telegram Icon -->
                     <svg class="telegram-icon" viewBox="0 0 24 24">
@@ -366,8 +366,15 @@
         // Check for deep link data
         const urlParams = new URLSearchParams(window.location.search);
         const data = urlParams.get('data');
-        const customSchemeUrl = "rubyplayer://play?data=" + (data ? data : "");
+        const isPlaylist = window.location.pathname.startsWith('/playlist');
+        const schemeHost = isPlaylist ? "playlist" : "play";
+        const customSchemeUrl = "rubyplayer://" + schemeHost + "?data=" + (data ? data : "");
+        const intentUrl = "intent://" + schemeHost + "?data=" + data + "#Intent;scheme=rubyplayer;package=com.niet.rubyplayer;end";
         if (data) {
+            // Update overlay text
+            if (isPlaylist) {
+                document.querySelector('#deeplink-overlay h2').innerText = "Opening Shared Playlist...";
+            }
             // Show overlay, hide main content scroll
             document.getElementById('deeplink-overlay').style.display = 'flex';
             document.body.style.overflow = 'hidden';
@@ -377,7 +384,7 @@
             }, 500);
             // Backup intent attempt
             setTimeout(function () {
-                window.location.href = "intent://play?data=" + data + "#Intent;scheme=rubyplayer;package=com.niet.rubyplayer;end";
+                window.location.href = intentUrl;
             }, 1000);
         }
         function forceOpen() {
