@@ -4,44 +4,55 @@
     <title>Opening RubyPlayer...</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-        window.onload = function() {
-            // Get the 'data' parameter from the current URL
-            const urlParams = new URLSearchParams(window.location.search);
-            const data = urlParams.get('data');
-            
+        // Get the 'data' parameter from the current URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const data = urlParams.get('data');
+        const customSchemeUrl = "rubyplayer://play?data=" + (data ? data : "");
+        window.onload = function () {
             if (data) {
-                // Construct the custom scheme URL that the app DEFINITELY listens to
-                // We can use the 'rubyplayer://' scheme as a forceful fallback
-                // But since we are using https in the manifest, we can try intent://
-                
-                // APPROACH 1: Try to open via custom scheme (if we re-add it to manifest)
-                // APPROACH 2: Use Intent URL scheme which is standard for "Open App or Go to Store"
-                
-                // For now, let's try a direct redirect to the same URL but hoping the app intercepts it on click/action
-                // But better is to provide a "Open App" button
-                
-                document.getElementById('status').innerText = "Tap the button below to play the video.";
-                
-                // We will add a button that uses the same HTTPS link. 
-                // Sometimes programmatic redirect fails, but user click works.
+                document.getElementById('status').innerText = "Launching RubyPlayer...";
+                // Attempt to open the app automatically via custom scheme fallback
+                window.location.href = customSchemeUrl;
+            } else {
+                document.getElementById('status').innerText = "Error: Invalid link.";
             }
         };
+        function forceOpen() {
+            if (data) {
+                // Force open via custom scheme
+                window.location.href = customSchemeUrl;
+            }
+        }
     </script>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background: #1a1a1a; color: white; }
-        .btn { display: inline-block; background: #e50914; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; }
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: #1a1a1a;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            background: #e50914;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        p {
+            color: #cccccc;
+        }
     </style>
 </head>
 <body>
     <h1>RubyPlayer</h1>
     <p id="status">Waiting...</p>
-    <a id="openButton" href="#" class="btn" onclick="tryOpen()">Open in App</a>
-    <script>
-        function tryOpen() {
-            // Force reload/open of the current URL, which gives Android another chance to intercept
-            window.location.reload();
-            // Alternatively, if we had a custom scheme like rubyplayer://play?data=... we could use that here
-        }
-    </script>
+    <!-- Button manually triggers the custom scheme -->
+    <div class="btn" onclick="forceOpen()">Open in App</div>
+    <p style="font-size: 12px; margin-top: 30px; opacity: 0.5;">If it doesn't open, ensure RubyPlayer is installed.</p>
 </body>
 </html>
