@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Player Deep Link Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+            font-family: monospace;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .output-group {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            display: none;
+        }
+        
+        .output-group.show {
+            display: block;
+        }
+        
+        .output-link {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            word-break: break-all;
+            font-family: monospace;
+            font-size: 13px;
+            margin-top: 10px;
+            border: 2px solid #667eea;
+        }
+        
+        .copy-btn {
+            background: #28a745;
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+        
+        .copy-btn:hover {
+            background: #218838;
+        }
+        
+        .success-msg {
+            color: #28a745;
+            margin-top: 10px;
+            font-weight: 600;
+            display: none;
+        }
+        
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #333;
+        }
+        
+        .example {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-family: monospace;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Ruby Player Deep Link Generator</h1>
+        <p class="subtitle">Convert stream URLs into encrypted deep links for Ruby Player</p>
+        
+        <div class="info-box">
+            <strong>ℹ️ How to use:</strong><br>
+            1. Paste your stream URL (with or without pipe-separated parameters)<br>
+            2. Optionally add a stream name<br>
+            3. Click "Generate Deep Link"<br>
+            4. Copy and share the generated link
+        </div>
+        
+        <div class="input-group">
+            <label for="streamUrl">Stream URL *</label>
+            <textarea id="streamUrl" placeholder="Paste your stream URL here...
+Example: https://example.com/stream.m3u8|Cookie=...&Referer=..."></textarea>
+            <div class="example">
+                Example: https://dj-tm-srvr1.vercel.app/title/STREAM.mpd?data=...|drmScheme=clearkey&drmLicense=...&Cookie=...
+            </div>
+        </div>
+        
+        <div class="input-group">
+            <label for="streamName">Stream Name (Optional)</label>
+            <input type="text" id="streamName" placeholder="e.g., Sports Channel HD">
+        </div>
+        
+        <button onclick="generateDeepLink()">🔗 Generate Deep Link</button>
+        
+        <div class="output-group" id="outputGroup">
+            <label>Generated Deep Link:</label>
+            <div class="output-link" id="outputLink"></div>
+            <button class="copy-btn" onclick="copyToClipboard()">📋 Copy Link</button>
+            <div class="success-msg" id="successMsg">✓ Copied to clipboard!</div>
+        </div>
+    </div>
+
+    <script>
+        function base64UrlEncode(str) {
+            return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, (match, p1) => {
+                return String.fromCharCode('0x' + p1);
+            }))
+            .replace(/\+/g, '-')
+            .replace(/\//g, '_')
+            .replace(/=/g, '');
+        }
+
+        function generateDeepLink() {
+            const streamUrl = document.getElementById('streamUrl').value.trim();
+            const streamName = document.getElementById('streamName').value.trim();
+            
+            if (!streamUrl) {
+                alert('Please enter a stream URL');
+                return;
+            }
+            
+            // Create the data object
+            const data = {
+                url: streamUrl,
+                name: streamName || 'Stream'
+            };
+            
+            // Convert to JSON and encode
+            const jsonData = JSON.stringify(data);
+            const encodedData = base64UrlEncode(jsonData);
+            
+            // Generate the deep link
+            const deepLink = `https://rubyplayer.pages.dev/play?data=${encodedData}`;
+            
+            // Display the result
+            document.getElementById('outputLink').textContent = deepLink;
+            document.getElementById('outputGroup').classList.add('show');
+            document.getElementById('successMsg').style.display = 'none';
+        }
+        
+        function copyToClipboard() {
+            const link = document.getElementById('outputLink').textContent;
+            
+            navigator.clipboard.writeText(link).then(() => {
+                const successMsg = document.getElementById('successMsg');
+                successMsg.style.display = 'block';
+                setTimeout(() => {
+                    successMsg.style.display = 'none';
+                }, 3000);
+            }).catch(err => {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = link;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                
+                const successMsg = document.getElementById('successMsg');
+                successMsg.style.display = 'block';
+                setTimeout(() => {
+                    successMsg.style.display = 'none';
+                }, 3000);
+            });
+        }
+        
+        // Allow Enter key to generate
+        document.getElementById('streamUrl').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && e.ctrlKey) {
+                generateDeepLink();
+            }
+        });
+    </script>
+</body>
+</html>
