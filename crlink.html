@@ -215,14 +215,65 @@ Example: https://example.com/stream.m3u8|Cookie=...&Referer=..."></textarea>
                 return;
             }
             
-            // Create the data object
-            const data = {
-                url: streamUrl,
-                name: streamName || 'Stream'
+            // Decode URL-encoded pipes first
+            const decodedUrl = streamUrl.replace(/%7C/g, '|').replace(/%7c/g, '|');
+            
+            // Parse pipe-separated URL
+            const parts = decodedUrl.split('|');
+            const cleanUrl = parts[0];
+            
+            // Initialize StreamData object with all fields
+            const streamData = {
+                url: cleanUrl,
+                userAgent: "",
+                referer: "",
+                origin: "",
+                cookies: "",
+                drmScheme: "",
+                drmLicenseUrl: "",
+                clearKeyKid: "",
+                clearKeyKey: ""
             };
             
+            // Parse pipe-separated parameters
+            if (parts.length > 1) {
+                const allParams = parts.slice(1).flatMap(p => p.split('&'));
+                
+                allParams.forEach(param => {
+                    const [key, ...valueParts] = param.split('=');
+                    const value = valueParts.join('='); // Handle values with = in them
+                    
+                    if (!key || !value) return;
+                    
+                    const keyLower = key.toLowerCase();
+                    
+                    if (keyLower === 'cookie') {
+                        streamData.cookies = value;
+                    } else if (keyLower === 'referer') {
+                        streamData.referer = value;
+                    } else if (keyLower === 'origin') {
+                        streamData.origin = value;
+                    } else if (keyLower === 'user-agent') {
+                        streamData.userAgent = value;
+                    } else if (keyLower === 'drmscheme') {
+                        streamData.drmScheme = value;
+                    } else if (keyLower === 'drmlicense') {
+                        // Check if it's a URL or KID:KEY format
+                        if (value.startsWith('http://') || value.startsWith('https://')) {
+                            streamData.drmLicenseUrl = value;
+                        } else if (value.includes(':')) {
+                            // ClearKey format: kid:key
+                            const [kid, key] = value.split(':');
+                            streamData.clearKeyKid = kid || "";
+                            streamData.clearKeyKey = key || "";
+                            streamData.drmScheme = "clearkey";
+                        }
+                    }
+                });
+            }
+            
             // Convert to JSON and encode
-            const jsonData = JSON.stringify(data);
+            const jsonData = JSON.stringify(streamData);
             const encodedData = base64UrlEncode(jsonData);
             
             // Generate the deep link
