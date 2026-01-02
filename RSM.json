@@ -13,28 +13,28 @@
     {
       "poster_id": 3,
       "type": "image",
-      "text": "https://www.thecricketpanda.com/wp-content/uploads/2024/10/BBL-2024-25_-Everything-You-Need-to-Know.png"
+      "image": "https://www.thecricketpanda.com/wp-content/uploads/2024/10/BBL-2024-25_-Everything-You-Need-to-Know.png"
     }
   ],
 
   "matches": [
     {
-      "match_id": 001,
+      "match_id": 1,
       "title": "Dhaka Capitals vs Chattogram Royals",
       "thumbnail": "https://www.fancode.com/skillup-uploads/cms-media/138926_5808_DC_CCH_fc-web_1766733054203.jpg",
-      "status": "Upcoming",
+      "status": "upcoming",
       "format": "Bangladesh Premier League T20",
       "start_time": "2026-01-02T13:30:00Z",
       "channels": [
         {
-          "channel_id": 001,
+          "channel_id": 1,
           "name": "Fancode",
           "stream_url": "https://example.com/sample/stream_1"
         }
       ]
     },
     {
-      "match_id": 002,
+      "match_id": 2,
       "title": "Brisbane Heat vs Melbourne Stars",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQHueJRU51Avc49q61hDzjTbqwGANarac2c_Lnd4hGQw&s=10",
       "status": "upcoming",
@@ -42,44 +42,44 @@
       "start_time": "2026-01-02T13:45:00Z",
       "channels": [
         {
-          "channel_id": 005,
+          "channel_id": 5,
           "name": "Star Sports 2",
           "stream_url": "https://example.com/sample/stream_3"
         },
 {
-          "channel_id": 005,
+          "channel_id": 6,
           "name": "Sky Sports Cricket",
           "stream_url": "https://example.com/sample/stream_3"
         },
 {
-          "channel_id": 005,
+          "channel_id": 7,
           "name": "Fox Sports",
           "stream_url": "https://example.com/sample/stream_3"
         },
 {
-          "channel_id": 005,
+          "channel_id": 8,
           "name": "Willow By Cricbuzz",
           "stream_url": "https://example.com/sample/stream_3"
         },
 {
-          "channel_id": 005,
+          "channel_id": 9,
           "name": "Super Sports",
           "stream_url": "https://example.com/sample/stream_3"
         },
 {
-          "channel_id": 005,
+          "channel_id": 10,
           "name": "Ptv Sports",
           "stream_url": "https://example.com/sample/stream_3"
         },
 {
-          "channel_id": 005,
+          "channel_id": 11,
           "name": "Ten Sports",
           "stream_url": "https://example.com/sample/stream_3"
         }
       ]
     },
    {
-      "match_id": 006,
+      "match_id": 15,
       "title": "Mi Emirates vs Abu Dhabi Knight riders",
       "thumbnail": "https://www.fancode.com/skillup-uploads/cms-media/138633_5786_MIE_ADKR_FC-Web.jpg",
       "status": "Upcoming",
@@ -87,7 +87,7 @@
       "start_time": "2026-01-02T20:00:00Z",
       "channels": [
         {
-          "channel_id": 001,
+          "channel_id": 21,
           "name": "Fancode",
           "stream_url": "https://example.com/sample/stream_1"
         }
