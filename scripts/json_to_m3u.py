@@ -1,6 +1,6 @@
 import requests
 
-JSON_URL = "https://raw.githubusercontent.com/USERNAME/REPO/main/data.json"
+JSON_URL = "https://raw.githubusercontent.com/Odfinity/live-events/refs/heads/main/fancode/data.json"
 OUTPUT_FILE = "fancode.m3u"
 
 res = requests.get(JSON_URL, timeout=20)
