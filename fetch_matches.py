@@ -4,7 +4,7 @@ import json
 import os
 from datetime import datetime, timezone
 
-URL = "https://www.cricbuzz.com/cricket-schedule/upcoming-series/all"
+URL = "https://cricketdata.org/cricket-data-formats/schedule"
 
 # ---------------- LOAD OR CREATE matches.json ----------------
 if os.path.exists("matches.json"):
