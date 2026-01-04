@@ -1,0 +1,20 @@
+{
+  "posters": [
+    {
+      "poster_id": 1,
+      "type": "text",
+      "text": "Welcome to the Ruby Player. It is a smart level Streaming app."
+    },
+    {
+      "poster_id": 2,
+      "type": "image",
+      "image": "https://assets-in.bmscdn.com/discovery-catalog/events/et00478875-hgnrkhfvpf-landscape.jpg"
+    },
+    {
+      "poster_id": 3,
+      "type": "image",
+      "image": "https://www.thecricketpanda.com/wp-content/uploads/2024/10/BBL-2024-25_-Everything-You-Need-to-Know.png"
+    }
+  ],
+  "matches": []
+}
