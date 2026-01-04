@@ -2,7 +2,7 @@ name: Update Cricket Matches
 
 on:
   schedule:
-    - cron: "0 0 */4 * *"
+    - cron: "0 0 */4 * *"   # every 4 days
   workflow_dispatch:
 
 jobs:
@@ -22,11 +22,10 @@ jobs:
         run: |
           pip install requests beautifulsoup4
 
-      - name: Run match fetcher
+      - name: Run match scraper
         run: |
           python fetch_matches.py
-        env:
-          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}   # <-- Add this line
+        # No RAPIDAPI_KEY needed now
 
       - name: Commit changes
         run: |
