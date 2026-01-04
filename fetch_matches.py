@@ -6,7 +6,16 @@ from datetime import datetime, timezone
 
 URL = "https://cricketdata.org/cricket-data-formats/schedule"
 
-# ---------------- LOAD JSON ----------------
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Connection": "keep-alive",
+}
+
+# ---------------- LOAD OR CREATE matches.json ----------------
 if os.path.exists("matches.json"):
     with open("matches.json", "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -17,9 +26,13 @@ matches = data.get("matches", [])
 existing_titles = {m["title"] for m in matches}
 last_id = max([m.get("match_id", 0) for m in matches], default=0)
 
-# ---------------- FETCH PAGE ----------------
-resp = requests.get(URL, timeout=30)
-soup = BeautifulSoup(resp.text, "html.parser")
+# ---------------- FETCH HTML ----------------
+resp = requests.get(URL, headers=HEADERS, timeout=30)
+html = resp.text
+
+print("HTML length:", len(html))
+
+soup = BeautifulSoup(html, "html.parser")
 
 table = soup.find("table", class_="table table-striped bg-white")
 if not table:
@@ -27,8 +40,11 @@ if not table:
     exit(0)
 
 tbody = table.find("tbody")
-rows = tbody.find_all("tr")
+if not tbody:
+    print("❌ tbody not found")
+    exit(0)
 
+rows = tbody.find_all("tr")
 print("Total rows found:", len(rows))
 
 current_date = None
@@ -38,14 +54,14 @@ for tr in rows:
     # Date row
     th = tr.find("th", colspan="3")
     if th:
-        current_date = th.text.strip()  # "04 Jan 2026 (Sunday)"
+        current_date = th.text.strip()  # e.g. 04 Jan 2026 (Sunday)
         continue
 
     tds = tr.find_all("td")
     if len(tds) != 3 or not current_date:
         continue
 
-    # Series name
+    # Series
     series_tag = tds[0].find("a")
     series_name = series_tag.text.strip() if series_tag else "Unknown Series"
 
@@ -59,14 +75,15 @@ for tr in rows:
 
     title = f"{team1} vs {team2} ({series_name})"
 
-    # Duplicate check
+    # Skip duplicates
     if title in existing_titles:
         continue
 
     # Date → ISO Z
     try:
-        d = datetime.strptime(current_date.split("(")[0].strip(), "%d Jan %Y")
-        start_time = d.replace(hour=15, minute=0, tzinfo=timezone.utc)
+        date_clean = current_date.split("(")[0].strip()
+        match_date = datetime.strptime(date_clean, "%d %b %Y")
+        start_time = match_date.replace(hour=15, minute=0, tzinfo=timezone.utc)
     except:
         start_time = datetime.now(timezone.utc)
 
