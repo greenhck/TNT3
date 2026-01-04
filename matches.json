@@ -16,5 +16,861 @@
       "image": "https://www.thecricketpanda.com/wp-content/uploads/2024/10/BBL-2024-25_-Everything-You-Need-to-Know.png"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "match_id": 1,
+      "title": "Australia vs England (The Ashes, 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "The Ashes, 2025-26",
+      "start_time": "2026-01-04T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 2,
+      "title": "Northern Knights vs Otago (Super Smash 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Super Smash 2025-26",
+      "start_time": "2026-01-04T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 3,
+      "title": "Melbourne Renegades vs Melbourne Stars (Big Bash League 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Big Bash League 2025-26",
+      "start_time": "2026-01-04T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 4,
+      "title": "Adelaide Strikers vs Perth Scorchers (Big Bash League 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Big Bash League 2025-26",
+      "start_time": "2026-01-04T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 5,
+      "title": "MI Cape Town vs Paarl Royals (SA20, 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "SA20, 2025-26",
+      "start_time": "2026-01-04T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 6,
+      "title": "Desert Vipers vs MI Emirates (International League T20, 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "International League T20, 2025-26",
+      "start_time": "2026-01-04T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 7,
+      "title": "Brisbane Heat vs Sydney Sixers (Big Bash League 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Big Bash League 2025-26",
+      "start_time": "2026-01-05T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 8,
+      "title": "Pretoria Capitals vs Sunrisers Eastern Cape (SA20, 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "SA20, 2025-26",
+      "start_time": "2026-01-05T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 9,
+      "title": "Auckland vs Otago (Super Smash 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Super Smash 2025-26",
+      "start_time": "2026-01-05T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 10,
+      "title": "Baroda vs Jammu and Kashmir (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 11,
+      "title": "Sikkim vs Uttarakhand (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 12,
+      "title": "Kerala vs Puducherry (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 13,
+      "title": "Chhattisgarh vs Maharashtra (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 14,
+      "title": "Goa vs Punjab (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 15,
+      "title": "Tamil Nadu vs Tripura (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 16,
+      "title": "Uttar Pradesh vs Vidarbha (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 17,
+      "title": "Delhi vs Railways (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 18,
+      "title": "Saurashtra vs Services (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 19,
+      "title": "Jharkhand vs Madhya Pradesh (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 20,
+      "title": "Karnataka vs Rajasthan (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 21,
+      "title": "Assam vs Chandigarh (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 22,
+      "title": "Gujarat vs Odisha (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 23,
+      "title": "Andhra vs Haryana (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 24,
+      "title": "Bengal vs Hyderabad (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 25,
+      "title": "Himachal Pradesh vs Mumbai (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 26,
+      "title": "Adelaide Strikers vs Sydney Thunder (Big Bash League 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Big Bash League 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 27,
+      "title": "Joburg Super Kings vs MI Cape Town (SA20, 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "SA20, 2025-26",
+      "start_time": "2026-01-06T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 28,
+      "title": "Central Districts vs Wellington (Super Smash 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Super Smash 2025-26",
+      "start_time": "2026-01-07T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 29,
+      "title": "Melbourne Renegades vs Perth Scorchers (Big Bash League 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Big Bash League 2025-26",
+      "start_time": "2026-01-07T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 30,
+      "title": "Durban Super Giants vs Pretoria Capitals (SA20, 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "SA20, 2025-26",
+      "start_time": "2026-01-07T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 31,
+      "title": "Canterbury vs Northern Knights (Super Smash 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Super Smash 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 32,
+      "title": "Mumbai vs Punjab (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 33,
+      "title": "Goa vs Maharashtra (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 34,
+      "title": "Delhi vs Haryana (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 35,
+      "title": "Gujarat vs Saurashtra (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 36,
+      "title": "Andhra vs Services (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 37,
+      "title": "Odisha vs Railways (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 38,
+      "title": "Chhattisgarh vs Uttarakhand (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 39,
+      "title": "Bengal vs Uttar Pradesh (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 40,
+      "title": "Karnataka vs Madhya Pradesh (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 41,
+      "title": "Kerala vs Tamil Nadu (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 42,
+      "title": "Puducherry vs Rajasthan (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 43,
+      "title": "Hyderabad vs Jammu and Kashmir (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 44,
+      "title": "Baroda vs Chandigarh (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 45,
+      "title": "Assam vs Vidarbha (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 46,
+      "title": "Himachal Pradesh vs Sikkim (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 47,
+      "title": "Jharkhand vs Tripura (Vijay Hazare Trophy Elite 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Vijay Hazare Trophy Elite 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 48,
+      "title": "Border vs Mpumalanga Rhinos (CSA Four-Day Series Division Two 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "CSA Four-Day Series Division Two 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 49,
+      "title": "Northern Cape vs South Western Districts (CSA Four-Day Series Division Two 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "CSA Four-Day Series Division Two 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 50,
+      "title": "Melbourne Stars vs Sydney Sixers (Big Bash League 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Big Bash League 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 51,
+      "title": "Joburg Super Kings vs Paarl Royals (SA20, 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "SA20, 2025-26",
+      "start_time": "2026-01-08T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 52,
+      "title": "Otago vs Wellington (Super Smash 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Super Smash 2025-26",
+      "start_time": "2026-01-09T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 53,
+      "title": "Adelaide Strikers vs Hobart Hurricanes (Big Bash League 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Big Bash League 2025-26",
+      "start_time": "2026-01-09T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 54,
+      "title": "Durban Super Giants vs Sunrisers Eastern Cape (SA20, 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "SA20, 2025-26",
+      "start_time": "2026-01-09T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 55,
+      "title": "Auckland vs Canterbury (Super Smash 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Super Smash 2025-26",
+      "start_time": "2026-01-10T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 56,
+      "title": "Brisbane Heat vs Sydney Thunder (Big Bash League 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "Big Bash League 2025-26",
+      "start_time": "2026-01-10T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    },
+    {
+      "match_id": 57,
+      "title": "Paarl Royals vs Pretoria Capitals (SA20, 2025-26)",
+      "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+      "status": "upcoming",
+      "format": "SA20, 2025-26",
+      "start_time": "2026-01-10T15:00:00Z",
+      "channels": [
+        {
+          "channel_id": 1,
+          "name": "Sample Channel",
+          "stream_url": "https://example.com/sample/stream"
+        }
+      ]
+    }
+  ]
 }
