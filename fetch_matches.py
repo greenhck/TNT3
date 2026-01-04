@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 
 URL = "https://cricketdata.org/cricket-data-formats/schedule"
 
-# ---------------- LOAD OR CREATE matches.json ----------------
+# ---------------- LOAD JSON ----------------
 if os.path.exists("matches.json"):
     with open("matches.json", "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -14,19 +14,22 @@ else:
     data = {"posters": [], "matches": []}
 
 matches = data.get("matches", [])
-
-# last match_id
+existing_titles = {m["title"] for m in matches}
 last_id = max([m.get("match_id", 0) for m in matches], default=0)
 
-# to prevent duplicates
-existing_titles = {m["title"] for m in matches}
-
-# ---------------- FETCH HTML ----------------
-resp = requests.get(URL, timeout=20)
+# ---------------- FETCH PAGE ----------------
+resp = requests.get(URL, timeout=30)
 soup = BeautifulSoup(resp.text, "html.parser")
 
-rows = soup.find_all("tr")
-print("Total TR found:", len(rows))
+table = soup.find("table", class_="table table-striped bg-white")
+if not table:
+    print("❌ Match table not found")
+    exit(0)
+
+tbody = table.find("tbody")
+rows = tbody.find_all("tr")
+
+print("Total rows found:", len(rows))
 
 current_date = None
 added = 0
@@ -39,7 +42,7 @@ for tr in rows:
         continue
 
     tds = tr.find_all("td")
-    if len(tds) < 3 or not current_date:
+    if len(tds) != 3 or not current_date:
         continue
 
     # Series name
@@ -56,13 +59,13 @@ for tr in rows:
 
     title = f"{team1} vs {team2} ({series_name})"
 
-    # Skip duplicates
+    # Duplicate check
     if title in existing_titles:
         continue
 
     # Date → ISO Z
     try:
-        d = datetime.strptime(current_date.split("(")[0].strip(), "%d %b %Y")
+        d = datetime.strptime(current_date.split("(")[0].strip(), "%d Jan %Y")
         start_time = d.replace(hour=15, minute=0, tzinfo=timezone.utc)
     except:
         start_time = datetime.now(timezone.utc)
