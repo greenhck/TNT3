@@ -1,12 +1,8 @@
-import http.client
+import requests
+from bs4 import BeautifulSoup
 import json
 import os
-from datetime import datetime, timedelta, timezone
-
-# ---------------- CONFIG ----------------
-RAPID_HOST = "cricket-api-free-data.p.rapidapi.com"
-ENDPOINT = "/cricket-matches-upcoming"
-RAPID_KEY = os.getenv("RAPIDAPI_KEY")  # Must set as GitHub secret
+from datetime import datetime, timezone
 
 # ---------------- LOAD / CREATE JSON ----------------
 if os.path.exists("matches.json"):
@@ -18,84 +14,64 @@ else:
 matches = data.get("matches", [])
 last_id = max([m["match_id"] for m in matches], default=0)
 
-today = datetime.now(timezone.utc)
-end_day = today + timedelta(days=5)
+# ---------------- SCRAPE HTML ----------------
+url = "https://www.cricbuzz.com/cricket-schedule/upcoming-series/all"
+resp = requests.get(url)
+soup = BeautifulSoup(resp.text, "html.parser")
 
-# ---------------- API CALL ----------------
-conn = http.client.HTTPSConnection(RAPID_HOST)
-headers = {
-    "x-rapidapi-key": RAPID_KEY,
-    "x-rapidapi-host": RAPID_HOST
-}
-conn.request("GET", ENDPOINT, headers=headers)
-res = conn.getresponse()
-raw = res.read().decode("utf-8")
+tbody = soup.find("tbody")
+current_date = None
 
-# ---------------- DEBUG PRINT ----------------
-print("========== RAW API RESPONSE ==========")
-print(raw)
-
-try:
-    api_data = json.loads(raw)
-except Exception as e:
-    print("❌ Failed to parse JSON:", e)
-    api_data = {}
-
-print("========== PARSED JSON ==========")
-print(json.dumps(api_data, indent=2))
-
-# ---------------- PARSE MATCHES ----------------
-match_list = api_data.get("data") or api_data.get("matches") or []
-
-for m in match_list:
-    # try multiple possible keys
-    start_str = (
-        m.get("dateTimeGMT") or m.get("startTime") or m.get("start_date") or m.get("date")
-    )
-    if not start_str:
+for tr in tbody.find_all("tr"):
+    th = tr.find("th", colspan="3")
+    if th:
+        current_date = th.text.strip()  # e.g., "04 Jan 2026 (Sunday)"
         continue
-
-    try:
-        start_time = datetime.fromisoformat(start_str.replace("Z", "+00:00"))
-    except:
-        continue
-
-    if not (today <= start_time <= end_day):
-        continue
-
-    team1 = (
-        m.get("team1") or m.get("teamA") or (m.get("teams")[0] if isinstance(m.get("teams"), list) else None)
-    )
-    team2 = (
-        m.get("team2") or m.get("teamB") or (m.get("teams")[1] if isinstance(m.get("teams"), list) and len(m.get("teams")) > 1 else None)
-    )
-
-    if not team1 or not team2:
-        continue
-
-    series = m.get("series") or m.get("league") or m.get("competition") or "Cricket Match"
-
-    last_id += 1
-
-    matches.append({
-        "match_id": last_id,
-        "title": f"{team1} vs {team2} ({series})",
-        "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
-        "status": "upcoming",
-        "format": series,
-        "start_time": start_time.isoformat().replace("+00:00", "Z"),
-        "channels": [
-            {
-                "channel_id": 1,
-                "name": "Sample Channel",
-                "stream_url": "https://example.com/sample/stream"
-            }
-        ]
-    })
+    
+    tds = tr.find_all("td")
+    if len(tds) >= 3:
+        # series
+        series_tag = tds[0].find("a")
+        series_name = series_tag.text.strip() if series_tag else "Unknown Series"
+        
+        # teams
+        team_imgs = tds[1].find_all("img")
+        if len(team_imgs) >= 2:
+            team1 = team_imgs[0]["title"]
+            team2 = team_imgs[1]["title"]
+        else:
+            team1 = team2 = "Unknown"
+        
+        # parse date
+        try:
+            match_date = datetime.strptime(current_date.split("(")[0].strip(), "%d %b %Y")
+            match_datetime = match_date.replace(hour=15, minute=0, tzinfo=timezone.utc)  # default 15:00 UTC
+        except:
+            match_datetime = datetime.now(timezone.utc)
+        
+        last_id += 1
+        
+        # append match
+        matches.append({
+            "match_id": last_id,
+            "title": f"{team1} vs {team2} ({series_name})",
+            "thumbnail": "https://via.placeholder.com/300x170.png?text=Cricket+Match",
+            "status": "upcoming",
+            "format": series_name,
+            "start_time": match_datetime.isoformat().replace("+00:00", "Z"),
+            "channels": [
+                {
+                    "channel_id": 1,
+                    "name": "Sample Channel",
+                    "stream_url": "https://example.com/sample/stream"
+                }
+            ]
+        })
 
 data["matches"] = matches
 
+# ---------------- SAVE JSON ----------------
 with open("matches.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
-print("✅ Matches added:", len(matches))
+print(f"✅ Matches added: {len(matches)}")
