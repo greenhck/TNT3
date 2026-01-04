@@ -15,7 +15,7 @@ matches = data.get("matches", [])
 last_id = max([m["match_id"] for m in matches], default=0)
 
 # ---------------- SCRAPE HTML ----------------
-url = "https://www.cricbuzz.com/cricket-schedule/upcoming-series/all"
+url = "https://cricketdata.org/cricket-data-formats/schedule"
 resp = requests.get(url)
 soup = BeautifulSoup(resp.text, "html.parser")
 
