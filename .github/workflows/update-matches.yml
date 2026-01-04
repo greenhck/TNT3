@@ -25,6 +25,8 @@ jobs:
       - name: Run match fetcher
         run: |
           python fetch_matches.py
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}   # <-- Add this line
 
       - name: Commit changes
         run: |
