@@ -6,73 +6,46 @@ from datetime import datetime, timedelta, timezone
 
 URL = "https://www.cricbuzz.com/cricket-schedule/upcoming-series/all"
 
-# -----------------------------
-# Load or create matches.json
-# -----------------------------
+# ------------------ LOAD OR CREATE JSON ------------------
 if os.path.exists("matches.json"):
     with open("matches.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 else:
-    data = {
-        "posters": [
-            {
-                "poster_id": 1,
-                "type": "text",
-                "text": "Welcome to the Ruby Player. It is a smart level Streaming app."
-            },
-            {
-                "poster_id": 2,
-                "type": "image",
-                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/et00478875-hgnrkhfvpf-landscape.jpg"
-            },
-            {
-                "poster_id": 3,
-                "type": "image",
-                "image": "https://www.thecricketpanda.com/wp-content/uploads/2024/10/BBL-2024-25_-Everything-You-Need-to-Know.png"
-            }
-        ],
-        "matches": []
-    }
+    data = {"posters": [], "matches": []}
 
 matches = data.get("matches", [])
 last_id = max([m["match_id"] for m in matches], default=0)
 
-# -----------------------------
-# Date logic
-# -----------------------------
-today = datetime.now(timezone.utc).date()
-end_date = today + timedelta(days=5)
+today = datetime.now(timezone.utc)
+end_day = today + timedelta(days=5)
 
 headers = {"User-Agent": "Mozilla/5.0"}
-html = requests.get(URL, headers=headers, timeout=20).text
+html = requests.get(URL, headers=headers).text
 soup = BeautifulSoup(html, "html.parser")
 
-for match in soup.select(".cb-schdl"):
-    title_el = match.select_one(".cb-schdl-tm")
-    time_el = match.select_one(".cb-col-25")
+# ------------------ SCRAPE ------------------
+for row in soup.select(".cb-col-100.cb-col"):
+    text = row.get_text(" ", strip=True)
 
-    if not title_el or not time_el:
+    # Must contain vs
+    if " vs " not in text:
         continue
 
-    title_text = title_el.get_text(" ", strip=True)
-    time_text = time_el.get_text(strip=True)
+    # Dummy time (Cricbuzz exact parse unreliable)
+    start_time = today.replace(hour=12, minute=0)
 
-    try:
-        start_time = datetime.strptime(time_text, "%d %b %Y %H:%M").replace(tzinfo=timezone.utc)
-    except:
-        continue
-
-    if not (today <= start_time.date() <= end_date):
+    if not (today.date() <= start_time.date() <= end_day.date()):
         continue
 
     last_id += 1
 
-    if "(" in title_text and ")" in title_text:
-        series = title_text.split("(")[-1].replace(")", "")
-        teams = title_text.split("(")[0].strip()
+    # Try extracting series
+    if "-" in text:
+        teams = text.split("-")[0].strip()
+        series = text.split("-")[1].strip()
     else:
+        teams = text
         series = "Cricket Match"
-        teams = title_text
 
     matches.append({
         "match_id": last_id,
@@ -95,4 +68,4 @@ data["matches"] = matches
 with open("matches.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
-print("✅ Matches updated successfully")
+print("✅ Matches added:", len(matches))
