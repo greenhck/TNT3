@@ -5,8 +5,8 @@ from datetime import datetime, timedelta, timezone
 
 # ---------------- CONFIG ----------------
 RAPID_HOST = "cricket-api-free-data.p.rapidapi.com"
-RAPID_KEY = "YOUR_RAPIDAPI_KEY"   # 🔴 replace with GitHub secret
 ENDPOINT = "/cricket-matches-upcoming"
+RAPID_KEY = os.getenv("RAPIDAPI_KEY")  # Must set as GitHub secret
 
 # ---------------- LOAD / CREATE JSON ----------------
 if os.path.exists("matches.json"):
@@ -27,31 +27,53 @@ headers = {
     "x-rapidapi-key": RAPID_KEY,
     "x-rapidapi-host": RAPID_HOST
 }
-
 conn.request("GET", ENDPOINT, headers=headers)
 res = conn.getresponse()
 raw = res.read().decode("utf-8")
 
-api_data = json.loads(raw)
+# ---------------- DEBUG PRINT ----------------
+print("========== RAW API RESPONSE ==========")
+print(raw)
+
+try:
+    api_data = json.loads(raw)
+except Exception as e:
+    print("❌ Failed to parse JSON:", e)
+    api_data = {}
+
+print("========== PARSED JSON ==========")
+print(json.dumps(api_data, indent=2))
 
 # ---------------- PARSE MATCHES ----------------
-for m in api_data.get("data", []):
-    start_str = m.get("dateTimeGMT")
+match_list = api_data.get("data") or api_data.get("matches") or []
 
+for m in match_list:
+    # try multiple possible keys
+    start_str = (
+        m.get("dateTimeGMT") or m.get("startTime") or m.get("start_date") or m.get("date")
+    )
     if not start_str:
         continue
 
-    start_time = datetime.fromisoformat(start_str.replace("Z", "+00:00"))
+    try:
+        start_time = datetime.fromisoformat(start_str.replace("Z", "+00:00"))
+    except:
+        continue
 
     if not (today <= start_time <= end_day):
         continue
 
-    team1 = m.get("team1")
-    team2 = m.get("team2")
-    series = m.get("series", "Cricket Match")
+    team1 = (
+        m.get("team1") or m.get("teamA") or (m.get("teams")[0] if isinstance(m.get("teams"), list) else None)
+    )
+    team2 = (
+        m.get("team2") or m.get("teamB") or (m.get("teams")[1] if isinstance(m.get("teams"), list) and len(m.get("teams")) > 1 else None)
+    )
 
     if not team1 or not team2:
         continue
+
+    series = m.get("series") or m.get("league") or m.get("competition") or "Cricket Match"
 
     last_id += 1
 
