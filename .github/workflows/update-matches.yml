@@ -2,7 +2,7 @@ name: Update Cricket Matches
 
 on:
   schedule:
-    - cron: "0 0 */4 * *"   # every 4 days
+    - cron: "0 0 */10 * *"   # every 4 days
   workflow_dispatch:
 
 jobs:
