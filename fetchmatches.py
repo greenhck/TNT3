@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 import os
 
-URL = "https://crickapi.com/fixtures"  # jis page me ye script tag hai
-MATCHES_FILE = "matches1.json"
+URL = "https://crickapi.com/"
+MATCHES_FILE = "matche.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
@@ -29,37 +29,48 @@ resp.raise_for_status()
 soup = BeautifulSoup(resp.text, "html.parser")
 
 script = soup.find("script", id="app-root-state")
-if not script:
+if not script or not script.string:
     print("❌ app-root-state JSON not found")
     exit(1)
 
-# HTML entities (&q;) fix
+# HTML entities fix
 raw_json = script.string.replace("&q;", '"')
 
 state = json.loads(raw_json)
 
-# API key inside JSON
-fixture_key = next(k for k in state.keys() if "getFixture" in k)
+# find fixture key
+fixture_key = None
+for k in state.keys():
+    if "getFixture" in k:
+        fixture_key = k
+        break
+
+if not fixture_key:
+    print("❌ Fixture data not found in JSON")
+    exit(1)
+
 fixtures = state[fixture_key]
 
 added = 0
 
 # ---------------- PARSE FIXTURES ----------------
 for fx in fixtures:
-    team1 = fx.get("t1", "")
-    team2 = fx.get("t2", "")
-    series = fx.get("series", "Unknown Series")
+    team1 = fx.get("t1", "").strip()
+    team2 = fx.get("t2", "").strip()
+    series = fx.get("series", "Unknown Series").strip()
+
+    if not team1 or not team2:
+        continue
 
     title = f"{team1} vs {team2} ({series})"
     if title in existing_titles:
         continue
 
-    # Time → ISO Z format
     ts = fx.get("timestamp")
+    start_time = None
     if ts:
-        start_time = datetime.fromtimestamp(int(ts), tz=timezone.utc).isoformat().replace("+00:00", "Z")
-    else:
-        start_time = None
+        start_time = datetime.fromtimestamp(int(ts), tz=timezone.utc) \
+            .isoformat().replace("+00:00", "Z")
 
     match = {
         "match_id": next_match_id,
