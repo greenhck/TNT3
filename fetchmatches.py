@@ -28,36 +28,50 @@ resp.raise_for_status()
 
 soup = BeautifulSoup(resp.text, "html.parser")
 
-script = soup.find("script", id="app-root-state")
-if not script or not script.string:
-    print("❌ app-root-state JSON not found")
+# ---------------- FIND EMBEDDED JSON ----------------
+state = None
+
+for script in soup.find_all("script", type="application/json"):
+    if not script.string:
+        continue
+
+    raw = script.string.strip()
+
+    # fix HTML entities
+    raw = raw.replace("&q;", '"')
+
+    if "getFixture" in raw or "fixture" in raw:
+        try:
+            state = json.loads(raw)
+            break
+        except Exception:
+            continue
+
+if not state:
+    print("❌ Embedded fixture JSON not found in any script tag")
     exit(1)
 
-# HTML entities fix
-raw_json = script.string.replace("&q;", '"')
+# ---------------- FIND FIXTURE DATA ----------------
+fixtures = None
 
-state = json.loads(raw_json)
+if isinstance(state, dict):
+    for k, v in state.items():
+        if "getFixture" in k or "fixture" in k:
+            if isinstance(v, list):
+                fixtures = v
+                break
 
-# find fixture key
-fixture_key = None
-for k in state.keys():
-    if "getFixture" in k:
-        fixture_key = k
-        break
-
-if not fixture_key:
-    print("❌ Fixture data not found in JSON")
+if not fixtures:
+    print("❌ Fixture list not found in parsed JSON")
     exit(1)
-
-fixtures = state[fixture_key]
-
-added = 0
 
 # ---------------- PARSE FIXTURES ----------------
+added = 0
+
 for fx in fixtures:
-    team1 = fx.get("t1", "").strip()
-    team2 = fx.get("t2", "").strip()
-    series = fx.get("series", "Unknown Series").strip()
+    team1 = (fx.get("t1") or "").strip()
+    team2 = (fx.get("t2") or "").strip()
+    series = (fx.get("series") or "Unknown Series").strip()
 
     if not team1 or not team2:
         continue
@@ -69,8 +83,9 @@ for fx in fixtures:
     ts = fx.get("timestamp")
     start_time = None
     if ts:
-        start_time = datetime.fromtimestamp(int(ts), tz=timezone.utc) \
-            .isoformat().replace("+00:00", "Z")
+        start_time = datetime.fromtimestamp(
+            int(ts), tz=timezone.utc
+        ).isoformat().replace("+00:00", "Z")
 
     match = {
         "match_id": next_match_id,
