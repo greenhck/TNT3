@@ -3,13 +3,21 @@ import json
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 import os
+import sys
 
 URL = "https://crickapi.com/"
 MATCHES_FILE = "matche.json"
+DEBUG_HTML = "debug_page.html"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9"
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/121.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Connection": "keep-alive",
 }
 
 # ---------------- LOAD EXISTING JSON ----------------
@@ -23,47 +31,62 @@ existing_titles = {m["title"] for m in data.get("matches", [])}
 next_match_id = max([m["match_id"] for m in data.get("matches", [])], default=0) + 1
 
 # ---------------- FETCH PAGE ----------------
-resp = requests.get(URL, headers=HEADERS, timeout=20)
-resp.raise_for_status()
+print("🌐 Fetching page:", URL)
+resp = requests.get(URL, headers=HEADERS, timeout=30)
+
+print("📡 Status Code:", resp.status_code)
+print("📦 Response length:", len(resp.text))
+
+# Save HTML for inspection
+with open(DEBUG_HTML, "w", encoding="utf-8") as f:
+    f.write(resp.text)
+
+print(f"📝 HTML saved to {DEBUG_HTML}")
+
+if resp.status_code != 200 or len(resp.text) < 5000:
+    print("❌ Page content looks blocked or incomplete")
+    sys.exit(1)
 
 soup = BeautifulSoup(resp.text, "html.parser")
 
-# ---------------- FIND EMBEDDED JSON ----------------
+# ---------------- FIND JSON SCRIPTS ----------------
+scripts = soup.find_all("script")
+print(f"🔍 Total <script> tags found: {len(scripts)}")
+
+found_json = False
 state = None
 
-for script in soup.find_all("script", type="application/json"):
-    if not script.string:
-        continue
+for idx, script in enumerate(scripts):
+    content = script.string or script.text or ""
+    if "fixture" in content.lower() or "match" in content.lower():
+        print(f"➡️ Possible data script at index {idx} (length {len(content)})")
 
-    raw = script.string.strip()
-
-    # fix HTML entities
-    raw = raw.replace("&q;", '"')
-
-    if "getFixture" in raw or "fixture" in raw:
+    if '"getFixture"' in content or "getFixture" in content:
         try:
+            raw = content.replace("&q;", '"')
             state = json.loads(raw)
+            found_json = True
+            print("✅ Fixture JSON parsed successfully")
             break
-        except Exception:
-            continue
+        except Exception as e:
+            print("⚠️ JSON parse failed:", e)
 
-if not state:
-    print("❌ Embedded fixture JSON not found in any script tag")
-    exit(1)
+if not found_json:
+    print("❌ No embedded fixture JSON found")
+    print("👉 Open debug_page.html from GitHub Actions artifacts and search:")
+    print('   keywords: getFixture, fixture, __NEXT_DATA__, app-root')
+    sys.exit(1)
 
-# ---------------- FIND FIXTURE DATA ----------------
+# ---------------- EXTRACT FIXTURES ----------------
 fixtures = None
-
-if isinstance(state, dict):
-    for k, v in state.items():
-        if "getFixture" in k or "fixture" in k:
-            if isinstance(v, list):
-                fixtures = v
-                break
+for k, v in state.items():
+    if "fixture" in k.lower() and isinstance(v, list):
+        fixtures = v
+        break
 
 if not fixtures:
-    print("❌ Fixture list not found in parsed JSON")
-    exit(1)
+    print("❌ Fixture list not found inside JSON")
+    sys.exit(1)
 
 # ---------------- PARSE FIXTURES ----------------
 added = 0
