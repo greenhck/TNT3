@@ -2,12 +2,20 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
+import os
 
-URL = "https://crex.com/series/1VD/big-bash-league-2025-26/matches"
+# ================= CONFIG =================
+URL = os.getenv("SCRAPE_URL") or "https://PASTE_REAL_URL_HERE"
+YEAR = 2026
+# ==========================================
 
-res = requests.get(URL, headers={
-    "User-Agent": "Mozilla/5.0"
-})
+headers = {
+    "User-Agent": "Mozilla/5.0 (compatible; GitHubBot/1.0)"
+}
+
+res = requests.get(URL, headers=headers, timeout=30)
+res.raise_for_status()
+
 soup = BeautifulSoup(res.text, "html.parser")
 
 matches = []
@@ -16,24 +24,52 @@ match_id = 1
 date_blocks = soup.select(".datewise-match-wrapper")
 
 for block in date_blocks:
-    date_text = block.select_one(".datetime")
-    if not date_text:
+    date_node = block.select_one(".datetime")
+    if not date_node:
         continue
 
-    # Convert "Tuesday, January 6" → "2026-01-06"
-    parsed_date = datetime.strptime(date_text.text.strip(), "%A, %B %d")
-    start_date = parsed_date.replace(year=2026).strftime("%Y-%m-%d")
+    # "Tuesday, January 6" -> "2026-01-06"
+    try:
+        parsed_date = datetime.strptime(date_node.text.strip(), "%A, %B %d")
+        start_date = parsed_date.replace(year=YEAR).strftime("%Y-%m-%d")
+    except Exception:
+        continue
 
     cards = block.select("app-match-card")
 
     for card in cards:
         wrapper = card.select_one(".match-card-wrapper")
+        if not wrapper:
+            continue
 
-        league_text = wrapper.select_one(".match-info").text.strip()
-        league = "Big Bash League" if "BBL" in league_text else "Unknown League"
+        text_lower = wrapper.text.lower()
 
-        start_time = wrapper.select_one(".start-text")
-        start_time = start_time.text.strip() if start_time else "TBD"
+        # ================= STATUS DETECTION =================
+        status = None
+        start_time = None
+
+        # UPCOMING
+        start_node = wrapper.select_one(".start-text")
+        if start_node:
+            status = "upcoming"
+            start_time = start_node.text.strip()
+
+        # LIVE
+        elif wrapper.select_one(".team-score"):
+            status = "live"
+            start_time = "Live"
+
+        # COMPLETED → SKIP
+        elif "won" in text_lower or wrapper.select_one(".reason"):
+            continue
+
+        # Safety
+        if status not in ("live", "upcoming"):
+            continue
+        # ====================================================
+
+        # League
+        league = "Big Bash League" if "bbl" in text_lower else "Unknown League"
 
         teams = wrapper.select(".team-name")
         logos = wrapper.select("img")
@@ -44,7 +80,7 @@ for block in date_blocks:
         match = {
             "match_id": match_id,
             "league": league,
-            "status": "upcoming",
+            "status": status,
             "start_date": start_date,
             "start_time": start_time,
             "teams": {
@@ -63,11 +99,12 @@ for block in date_blocks:
         matches.append(match)
         match_id += 1
 
+# ================= SAVE JSON =================
 final_json = {
     "matches": matches
 }
 
-with open("kabhi-kabhi-mann-karta-hai.json", "w", encoding="utf-8") as f:
+with open("matches.json", "w", encoding="utf-8") as f:
     json.dump(final_json, f, indent=2, ensure_ascii=False)
 
-print("✅ matches.json saved")
+print(f"✅ Saved {len(matches)} live/upcoming matches")
