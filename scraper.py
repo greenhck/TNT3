@@ -7,21 +7,12 @@ import hashlib
 
 # ================= CONFIG =================
 YEAR = 2026
-
-URL_ENV_KEYS = ["SURL1", "SURL2"]
+URL_ENV_KEYS = ["SURL1", "SURL2", "SURL3", "SURL4"]
 # =========================================
 
-headers = {
+HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; GitHubBot/1.0)"
 }
-
-matches = []
-seen_keys = set()
-match_id = 1
-
-def unique_key(start_date, team1, team2, league):
-    raw = f"{start_date}-{team1}-{team2}-{league}"
-    return hashlib.md5(raw.encode()).hexdigest()
 
 def get_urls_from_secrets():
     urls = []
@@ -31,23 +22,29 @@ def get_urls_from_secrets():
             urls.append(val)
     return urls
 
-SCRAPE_URLS = get_urls_from_secrets()
+def unique_key(start_date, team1, team2, league):
+    raw = f"{start_date}-{team1}-{team2}-{league}"
+    return hashlib.md5(raw.encode()).hexdigest()
 
+SCRAPE_URLS = get_urls_from_secrets()
 if not SCRAPE_URLS:
-    raise Exception("❌ No scrape URLs found in secrets (SURL1, SURL2, ...)")
+    raise Exception("No scrape URLs found in secrets (SURL1, SURL2, ...)")
+
+matches = []
+seen_keys = set()
+match_id = 1
 
 for URL in SCRAPE_URLS:
     print(f"🔍 Scraping: {URL}")
 
     try:
-        res = requests.get(URL, headers=headers, timeout=30)
+        res = requests.get(URL, headers=HEADERS, timeout=30)
         res.raise_for_status()
     except Exception as e:
         print(f"❌ Failed {URL}: {e}")
         continue
 
     soup = BeautifulSoup(res.text, "html.parser")
-
     date_blocks = soup.select(".datewise-match-wrapper")
 
     for block in date_blocks:
@@ -70,25 +67,40 @@ for URL in SCRAPE_URLS:
 
             text_lower = wrapper.text.lower()
 
-            # -------- STATUS DETECTION --------
+            # ==================================================
+            # ✅ STATUS DETECTION (CORRECT ORDER – VERY IMPORTANT)
+            # ==================================================
+
+            # 1️⃣ COMPLETED → ALWAYS SKIP
+            if (
+                " won " in text_lower
+                or "won by" in text_lower
+                or "match ended" in text_lower
+                or wrapper.select_one(".reason")
+            ):
+                continue
+
             status = None
             start_time = None
 
-            if wrapper.select_one(".start-text"):
+            # 2️⃣ UPCOMING
+            start_node = wrapper.select_one(".start-text")
+            if start_node:
                 status = "upcoming"
-                start_time = wrapper.select_one(".start-text").text.strip()
+                start_time = start_node.text.strip()
 
+            # 3️⃣ LIVE (score present but NO result text)
             elif wrapper.select_one(".team-score"):
                 status = "live"
                 start_time = "Live"
 
-            elif "won" in text_lower or wrapper.select_one(".reason"):
-                continue  # skip completed
-
+            # Safety guard
             if status not in ("live", "upcoming"):
                 continue
-            # ---------------------------------
 
+            # ==================================================
+
+            # League detection (simple & safe)
             league = "Big Bash League" if "bbl" in text_lower else "Unknown League"
 
             teams = wrapper.select(".team-name")
@@ -135,4 +147,4 @@ final_json = {
 with open("matches.json", "w", encoding="utf-8") as f:
     json.dump(final_json, f, indent=2, ensure_ascii=False)
 
-print(f"✅ Total matches saved: {len(matches)}")
+print(f"✅ Saved {len(matches)} LIVE + UPCOMING matches only")
