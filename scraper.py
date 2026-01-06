@@ -67,7 +67,7 @@ final_json = {
     "matches": matches
 }
 
-with open("matches.json", "w", encoding="utf-8") as f:
+with open("kabhi-kabhi-mann-karta-hai.json", "w", encoding="utf-8") as f:
     json.dump(final_json, f, indent=2, ensure_ascii=False)
 
 print("✅ matches.json saved")
