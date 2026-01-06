@@ -1,0 +1,76 @@
+{
+  "matches": [
+    {
+      "match_id": 1,
+      "league": "Bangladesh Premier League",
+      "status": "live",
+      "start_date": "2026-01-05",
+      "start_time": "03:56 PM",
+      "teams": {
+        "home": {
+          "name": "Noakhali Express",
+          "logo": "https://assets.example.com/logos/noakhali-express.png"
+        },
+        "away": {
+          "name": "Sylhet Titans",
+          "logo": "https://assets.example.com/logos/sylhet-titans.png"
+        }
+      },
+      "channels": [
+        {
+          "id": 101,
+          "name": "BPL Live HD",
+          "stream_url": "https://stream.example.com/bpl/noakhali-vs-sylhet/hd"
+        }
+      ]
+    },
+    {
+      "match_id": 2,
+      "league": "Big Bash League",
+      "status": "live",
+      "start_date": "2026-01-05",
+      "start_time": "01:15 PM",
+      "teams": {
+        "home": {
+          "name": "Sydney Sixers",
+          "logo": "https://assets.example.com/logos/sydney-sixers.png"
+        },
+        "away": {
+          "name": "Brisbane Heat",
+          "logo": "https://assets.example.com/logos/brisbane-heat.png"
+        }
+      },
+      "channels": [
+        {
+          "id": 201,
+          "name": "BBL Live HD",
+          "stream_url": "https://stream.example.com/bbl/sixers-vs-heat/hd"
+        }
+      ]
+    },
+    {
+      "match_id": 3,
+      "league": "Bangladesh Premier League",
+      "status": "upcoming",
+      "start_date": "2026-01-05",
+      "start_time": "05:30 PM",
+      "teams": {
+        "home": {
+          "name": "Chattogram Royals",
+          "logo": "https://assets.example.com/logos/chattogram-royals.png"
+        },
+        "away": {
+          "name": "Rangpur Riders",
+          "logo": "https://assets.example.com/logos/rangpur-riders.png"
+        }
+      },
+      "channels": [
+        {
+          "id": 301,
+          "name": "BPL Live HD",
+          "stream_url": "https://stream.example.com/bpl/chattogram-vs-rangpur/hd"
+        }
+      ]
+    }
+  ]
+}
