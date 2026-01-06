@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 
-URL = "PASTE_SITE_URL_HERE"
+URL = "https://crex.com/series/1VD/big-bash-league-2025-26/matches"
 
 res = requests.get(URL, headers={
     "User-Agent": "Mozilla/5.0"
