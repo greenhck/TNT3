@@ -67,7 +67,11 @@ for URL in SCRAPE_URLS:
 
             text_lower = wrapper.text.lower()
 
-            # ================= COMPLETED → SKIP =================
+            # ==================================================
+            # ✅ STATUS DETECTION (CORRECT ORDER – VERY IMPORTANT)
+            # ==================================================
+
+            # 1️⃣ COMPLETED → ALWAYS SKIP
             if (
                 " won " in text_lower
                 or "won by" in text_lower
@@ -75,28 +79,28 @@ for URL in SCRAPE_URLS:
                 or wrapper.select_one(".reason")
             ):
                 continue
-            # ====================================================
 
-            # ---------- START TIME (extract first) ----------
+            status = None
             start_time = None
+
+            # 2️⃣ UPCOMING
             start_node = wrapper.select_one(".start-text")
             if start_node:
-                start_time = start_node.text.strip()
-            # -----------------------------------------------
-
-            # ---------- STATUS ----------
-            status = None
-
-            if start_node:
                 status = "upcoming"
+                start_time = start_node.text.strip()
 
+            # 3️⃣ LIVE (score present but NO result text)
             elif wrapper.select_one(".team-score"):
                 status = "live"
+                start_time = "Live"
 
+            # Safety guard
             if status not in ("live", "upcoming"):
                 continue
-            # -----------------------------------------------
 
+            # ==================================================
+
+            # League detection (simple & safe)
             league = "Big Bash League" if "bbl" in text_lower else "Unknown League"
 
             teams = wrapper.select(".team-name")
@@ -118,7 +122,7 @@ for URL in SCRAPE_URLS:
                 "league": league,
                 "status": status,
                 "start_date": start_date,
-                "start_time": start_time,  # 👈 LIVE me bhi actual start time
+                "start_time": start_time,
                 "teams": {
                     "home": {
                         "name": team1,
@@ -136,7 +140,11 @@ for URL in SCRAPE_URLS:
             match_id += 1
 
 # ================= SAVE JSON =================
+final_json = {
+    "matches": matches
+}
+
 with open("matches.json", "w", encoding="utf-8") as f:
-    json.dump({"matches": matches}, f, indent=2, ensure_ascii=False)
+    json.dump(final_json, f, indent=2, ensure_ascii=False)
 
 print(f"✅ Saved {len(matches)} LIVE + UPCOMING matches only")
