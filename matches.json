@@ -364,24 +364,6 @@
       "match_id": 21,
       "league": "Unknown League",
       "status": "upcoming",
-      "start_date": "2026-01-06",
-      "start_time": "Jan 6, 3:30 PM",
-      "teams": {
-        "home": {
-          "name": "MI Cape Town",
-          "logo": "https://cricketvectors.akamaized.net/Teams/MW.png"
-        },
-        "away": {
-          "name": "Joburg Super Kings",
-          "logo": "https://cricketvectors.akamaized.net/Teams/MX.png"
-        }
-      },
-      "channels": []
-    },
-    {
-      "match_id": 22,
-      "league": "Unknown League",
-      "status": "upcoming",
       "start_date": "2026-01-07",
       "start_time": "Jan 7, 3:30 PM",
       "teams": {
@@ -397,7 +379,7 @@
       "channels": []
     },
     {
-      "match_id": 23,
+      "match_id": 22,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-08",
@@ -415,7 +397,7 @@
       "channels": []
     },
     {
-      "match_id": 24,
+      "match_id": 23,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-09",
@@ -433,7 +415,7 @@
       "channels": []
     },
     {
-      "match_id": 25,
+      "match_id": 24,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-10",
@@ -451,7 +433,7 @@
       "channels": []
     },
     {
-      "match_id": 26,
+      "match_id": 25,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-10",
@@ -469,7 +451,7 @@
       "channels": []
     },
     {
-      "match_id": 27,
+      "match_id": 26,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-11",
@@ -487,7 +469,7 @@
       "channels": []
     },
     {
-      "match_id": 28,
+      "match_id": 27,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-12",
@@ -505,7 +487,7 @@
       "channels": []
     },
     {
-      "match_id": 29,
+      "match_id": 28,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-13",
@@ -523,7 +505,7 @@
       "channels": []
     },
     {
-      "match_id": 30,
+      "match_id": 29,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-14",
@@ -541,7 +523,7 @@
       "channels": []
     },
     {
-      "match_id": 31,
+      "match_id": 30,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-15",
@@ -559,7 +541,7 @@
       "channels": []
     },
     {
-      "match_id": 32,
+      "match_id": 31,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-16",
@@ -577,7 +559,7 @@
       "channels": []
     },
     {
-      "match_id": 33,
+      "match_id": 32,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -595,7 +577,7 @@
       "channels": []
     },
     {
-      "match_id": 34,
+      "match_id": 33,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -613,7 +595,7 @@
       "channels": []
     },
     {
-      "match_id": 35,
+      "match_id": 34,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-18",
@@ -631,7 +613,7 @@
       "channels": []
     },
     {
-      "match_id": 36,
+      "match_id": 35,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-19",
@@ -649,7 +631,7 @@
       "channels": []
     },
     {
-      "match_id": 37,
+      "match_id": 36,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-21",
@@ -667,7 +649,7 @@
       "channels": []
     },
     {
-      "match_id": 38,
+      "match_id": 37,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-22",
@@ -685,7 +667,7 @@
       "channels": []
     },
     {
-      "match_id": 39,
+      "match_id": 38,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-23",
@@ -703,7 +685,7 @@
       "channels": []
     },
     {
-      "match_id": 40,
+      "match_id": 39,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-25",
