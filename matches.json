@@ -26,6 +26,21 @@
           "id": 2,
           "name": "Sky Sports 1",
           "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
+        },
+        {
+          "id": 3,
+          "name": "Fox 501 Hd",
+          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=247166"
+        },
+        {
+          "id": 4,
+          "name": "Sky Sports Cricket",
+          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
+        },
+        {
+          "id": 5,
+          "name": "Star Sports 2 Hd",
+          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
         }
       ]
     },
