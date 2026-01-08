@@ -327,16 +327,16 @@
     {
       "match_id": 19,
       "league": "Unknown League",
-      "status": "upcoming",
+      "status": "live",
       "start_date": "2026-01-08",
-      "start_time": "Jan 8, 3:30 PM",
+      "start_time": "Live",
       "teams": {
         "home": {
-          "name": "Joburg Super Kings",
+          "name": "JSK",
           "logo": "https://cricketvectors.akamaized.net/Teams/MX.png"
         },
         "away": {
-          "name": "Paarl Royals",
+          "name": "PR",
           "logo": "https://cricketvectors.akamaized.net/Teams/MY.png"
         }
       },
