@@ -3,16 +3,16 @@
     {
       "match_id": 1,
       "league": "Big Bash League",
-      "status": "upcoming",
+      "status": "live",
       "start_date": "2026-01-08",
-      "start_time": "Jan 8, 8:15 AM",
+      "start_time": "Live",
       "teams": {
         "home": {
-          "name": "Melbourne Stars",
+          "name": "MLS",
           "logo": "https://cricketvectors.akamaized.net/Teams/4M.png"
         },
         "away": {
-          "name": "Sydney Sixers",
+          "name": "SYS",
           "logo": "https://cricketvectors.akamaized.net/Teams/4O.png"
         }
       },
