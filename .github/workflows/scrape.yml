@@ -22,6 +22,8 @@ jobs:
         env:
           SURL1: ${{ secrets.SURL1 }}
           SURL2: ${{ secrets.SURL2 }}
+          SURL3: ${{ secrets.SURL3 }}
+          SURL4: ${{ secrets.SURL4 }}
         run: python scraper.py
 
       - name: Commit JSON
