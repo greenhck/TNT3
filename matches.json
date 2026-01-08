@@ -3,45 +3,6 @@
     {
       "match_id": 1,
       "league": "Big Bash League",
-      "status": "live",
-      "start_date": "2026-01-08",
-      "start_time": "Live",
-      "teams": {
-        "home": {
-          "name": "MLS",
-          "logo": "https://cricketvectors.akamaized.net/Teams/4M.png"
-        },
-        "away": {
-          "name": "SYS",
-          "logo": "https://cricketvectors.akamaized.net/Teams/4O.png"
-        }
-      },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
-    },
-    {
-      "match_id": 2,
-      "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-09",
       "start_time": "Jan 9, 8:15 AM",
@@ -55,31 +16,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/4Q.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 3,
+      "match_id": 2,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-10",
@@ -94,31 +34,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/51.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 4,
+      "match_id": 3,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-10",
@@ -133,31 +52,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/4M.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 5,
+      "match_id": 4,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-11",
@@ -172,31 +70,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/40.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 6,
+      "match_id": 5,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-11",
@@ -211,31 +88,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/4N.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 7,
+      "match_id": 6,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-12",
@@ -250,31 +106,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/4L.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 8,
+      "match_id": 7,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-13",
@@ -289,31 +124,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/4Q.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 9,
+      "match_id": 8,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-14",
@@ -328,31 +142,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/4J.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 10,
+      "match_id": 9,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-15",
@@ -367,31 +160,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/4N.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 11,
+      "match_id": 10,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-16",
@@ -409,7 +181,7 @@
       "channels": []
     },
     {
-      "match_id": 12,
+      "match_id": 11,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -427,7 +199,7 @@
       "channels": []
     },
     {
-      "match_id": 13,
+      "match_id": 12,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -445,7 +217,7 @@
       "channels": []
     },
     {
-      "match_id": 14,
+      "match_id": 13,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-18",
@@ -463,7 +235,7 @@
       "channels": []
     },
     {
-      "match_id": 15,
+      "match_id": 14,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-20",
@@ -481,7 +253,7 @@
       "channels": []
     },
     {
-      "match_id": 16,
+      "match_id": 15,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-21",
@@ -499,7 +271,7 @@
       "channels": []
     },
     {
-      "match_id": 17,
+      "match_id": 16,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-23",
@@ -517,7 +289,7 @@
       "channels": []
     },
     {
-      "match_id": 18,
+      "match_id": 17,
       "league": "Big Bash League",
       "status": "upcoming",
       "start_date": "2026-01-25",
@@ -535,7 +307,7 @@
       "channels": []
     },
     {
-      "match_id": 19,
+      "match_id": 18,
       "league": "Unknown League",
       "status": "live",
       "start_date": "2026-12-28",
@@ -550,31 +322,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MW.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 20,
+      "match_id": 19,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-08",
@@ -589,31 +340,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MY.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 21,
+      "match_id": 20,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-09",
@@ -628,31 +358,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/N0.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 22,
+      "match_id": 21,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-10",
@@ -667,31 +376,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MZ.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 23,
+      "match_id": 22,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-10",
@@ -706,31 +394,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MW.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 24,
+      "match_id": 23,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-11",
@@ -745,31 +412,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/N1.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 25,
+      "match_id": 24,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-12",
@@ -784,31 +430,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MW.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 26,
+      "match_id": 25,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-13",
@@ -823,31 +448,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/N1.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 27,
+      "match_id": 26,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-14",
@@ -862,31 +466,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MX.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 28,
+      "match_id": 27,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-15",
@@ -901,31 +484,10 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MY.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Willow by Cricbuzz",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xik3aubfpb/out/v1/145b19cd519a46de86c90db3a99fde05/cenc.mpd?|drmScheme=clearkey&drmLicense=88832a3ffbe760afd84863b8472640a4:1965f55cdd03f89056bcb48a7d21cafe"
-        },
-        {
-          "id": 2,
-          "name": "Sky Sports 1",
-          "stream_url": "https://gg.poocloud.in/ashes/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top"
-        },
-        {
-          "id": 4,
-          "name": "Sky Sports Cricket",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=250199"
-        },
-        {
-          "id": 5,
-          "name": "Star Sports 2 Hd",
-          "stream_url": "https://allinonereborn.xyz/filex.m3u8/live2.php?id=52096"
-        }
-      ]
+      "channels": []
     },
     {
-      "match_id": 29,
+      "match_id": 28,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-16",
@@ -943,7 +505,7 @@
       "channels": []
     },
     {
-      "match_id": 30,
+      "match_id": 29,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -961,7 +523,7 @@
       "channels": []
     },
     {
-      "match_id": 31,
+      "match_id": 30,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -979,7 +541,7 @@
       "channels": []
     },
     {
-      "match_id": 32,
+      "match_id": 31,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-18",
@@ -997,7 +559,7 @@
       "channels": []
     },
     {
-      "match_id": 33,
+      "match_id": 32,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-19",
@@ -1015,7 +577,7 @@
       "channels": []
     },
     {
-      "match_id": 34,
+      "match_id": 33,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-21",
@@ -1033,7 +595,7 @@
       "channels": []
     },
     {
-      "match_id": 35,
+      "match_id": 34,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-22",
@@ -1051,7 +613,7 @@
       "channels": []
     },
     {
-      "match_id": 36,
+      "match_id": 35,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-23",
@@ -1069,7 +631,7 @@
       "channels": []
     },
     {
-      "match_id": 37,
+      "match_id": 36,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-25",
@@ -1087,7 +649,7 @@
       "channels": []
     },
     {
-      "match_id": 38,
+      "match_id": 37,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-09",
@@ -1105,7 +667,7 @@
       "channels": []
     },
     {
-      "match_id": 39,
+      "match_id": 38,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-10",
@@ -1123,7 +685,7 @@
       "channels": []
     },
     {
-      "match_id": 40,
+      "match_id": 39,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-10",
@@ -1141,7 +703,7 @@
       "channels": []
     },
     {
-      "match_id": 41,
+      "match_id": 40,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-11",
@@ -1159,7 +721,7 @@
       "channels": []
     },
     {
-      "match_id": 42,
+      "match_id": 41,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-12",
@@ -1177,7 +739,7 @@
       "channels": []
     },
     {
-      "match_id": 43,
+      "match_id": 42,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-13",
@@ -1195,7 +757,7 @@
       "channels": []
     },
     {
-      "match_id": 44,
+      "match_id": 43,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-14",
@@ -1213,7 +775,7 @@
       "channels": []
     },
     {
-      "match_id": 45,
+      "match_id": 44,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-15",
@@ -1231,7 +793,7 @@
       "channels": []
     },
     {
-      "match_id": 46,
+      "match_id": 45,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-16",
@@ -1249,7 +811,7 @@
       "channels": []
     },
     {
-      "match_id": 47,
+      "match_id": 46,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -1267,7 +829,7 @@
       "channels": []
     },
     {
-      "match_id": 48,
+      "match_id": 47,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -1285,7 +847,7 @@
       "channels": []
     },
     {
-      "match_id": 49,
+      "match_id": 48,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-19",
@@ -1303,7 +865,7 @@
       "channels": []
     },
     {
-      "match_id": 50,
+      "match_id": 49,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-20",
@@ -1321,7 +883,7 @@
       "channels": []
     },
     {
-      "match_id": 51,
+      "match_id": 50,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-22",
@@ -1339,7 +901,7 @@
       "channels": []
     },
     {
-      "match_id": 52,
+      "match_id": 51,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-24",
@@ -1357,7 +919,7 @@
       "channels": []
     },
     {
-      "match_id": 53,
+      "match_id": 52,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-26",
@@ -1375,7 +937,7 @@
       "channels": []
     },
     {
-      "match_id": 54,
+      "match_id": 53,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-27",
@@ -1393,7 +955,7 @@
       "channels": []
     },
     {
-      "match_id": 55,
+      "match_id": 54,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-29",
@@ -1411,7 +973,7 @@
       "channels": []
     },
     {
-      "match_id": 56,
+      "match_id": 55,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-30",
@@ -1429,7 +991,7 @@
       "channels": []
     },
     {
-      "match_id": 57,
+      "match_id": 56,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-02-01",
@@ -1447,7 +1009,7 @@
       "channels": []
     },
     {
-      "match_id": 58,
+      "match_id": 57,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-02-03",
@@ -1465,7 +1027,7 @@
       "channels": []
     },
     {
-      "match_id": 59,
+      "match_id": 58,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-02-05",
@@ -1483,7 +1045,7 @@
       "channels": []
     },
     {
-      "match_id": 60,
+      "match_id": 59,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-11",
@@ -1501,7 +1063,7 @@
       "channels": []
     },
     {
-      "match_id": 61,
+      "match_id": 60,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-14",
@@ -1519,7 +1081,7 @@
       "channels": []
     },
     {
-      "match_id": 62,
+      "match_id": 61,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-18",
@@ -1537,7 +1099,7 @@
       "channels": []
     },
     {
-      "match_id": 63,
+      "match_id": 62,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-21",
@@ -1555,7 +1117,7 @@
       "channels": []
     },
     {
-      "match_id": 64,
+      "match_id": 63,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-23",
@@ -1573,7 +1135,7 @@
       "channels": []
     },
     {
-      "match_id": 65,
+      "match_id": 64,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-25",
@@ -1591,7 +1153,7 @@
       "channels": []
     },
     {
-      "match_id": 66,
+      "match_id": 65,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-28",
@@ -1609,7 +1171,7 @@
       "channels": []
     },
     {
-      "match_id": 67,
+      "match_id": 66,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-31",
