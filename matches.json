@@ -16,7 +16,29 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/4Q.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+{
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+{
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+{
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+
+      ]
     },
     {
       "match_id": 2,
@@ -34,7 +56,30 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/51.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+{
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+{
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+{
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+
+        
+      ]
     },
     {
       "match_id": 3,
@@ -52,7 +97,30 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/4M.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+{
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+{
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+{
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+
+        
+      ]
     },
     {
       "match_id": 4,
