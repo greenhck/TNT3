@@ -625,10 +625,10 @@
       ]
     },
     {
-      "match_id": 17,
+      "match_id": 19,
       "league": "Unknown League",
       "status": "live",
-      "start_date": "2026-12-28",
+      "start_date": "2026-01-09",
       "start_time": "Live",
       "teams": {
         "home": {
@@ -636,7 +636,85 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/N1.png"
         },
         "away": {
-          "name": "MICT",
+          "name": "SEC",
+          "logo": "https://cricketvectors.akamaized.net/Teams/N0.png"
+        }
+      },
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
+    },
+    {
+      "match_id": 20,
+      "league": "Unknown League",
+      "status": "upcoming",
+      "start_date": "2026-01-10",
+      "start_time": "Jan 10, 11:00 AM",
+      "teams": {
+        "home": {
+          "name": "Paarl Royals",
+          "logo": "https://cricketvectors.akamaized.net/Teams/MY.png"
+        },
+        "away": {
+          "name": "Pretoria Capitals",
+          "logo": "https://cricketvectors.akamaized.net/Teams/MZ.png"
+        }
+      },
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
+    },
+    {
+      "match_id": 21,
+      "league": "Unknown League",
+      "status": "upcoming",
+      "start_date": "2026-01-10",
+      "start_time": "Jan 10, 3:30 PM",
+      "teams": {
+        "home": {
+          "name": "Joburg Super Kings",
+          "logo": "https://cricketvectors.akamaized.net/Teams/MX.png"
+        },
+        "away": {
+          "name": "MI Cape Town",
           "logo": "https://cricketvectors.akamaized.net/Teams/MW.png"
         }
       },
@@ -664,78 +742,6 @@
       ]
     },
     {
-      "match_id": 18,
-      "league": "Unknown League",
-      "status": "live",
-      "start_date": "2026-01-08",
-      "start_time": "Live",
-      "teams": {
-        "home": {
-          "name": "JSK",
-          "logo": "https://cricketvectors.akamaized.net/Teams/MX.png"
-        },
-        "away": {
-          "name": "PR",
-          "logo": "https://cricketvectors.akamaized.net/Teams/MY.png"
-        }
-      },
-      "channels": []
-    },
-    {
-      "match_id": 19,
-      "league": "Unknown League",
-      "status": "live",
-      "start_date": "2026-01-09",
-      "start_time": "Live",
-      "teams": {
-        "home": {
-          "name": "DSG",
-          "logo": "https://cricketvectors.akamaized.net/Teams/N1.png"
-        },
-        "away": {
-          "name": "SEC",
-          "logo": "https://cricketvectors.akamaized.net/Teams/N0.png"
-        }
-      },
-      "channels": []
-    },
-    {
-      "match_id": 20,
-      "league": "Unknown League",
-      "status": "upcoming",
-      "start_date": "2026-01-10",
-      "start_time": "Jan 10, 11:00 AM",
-      "teams": {
-        "home": {
-          "name": "Paarl Royals",
-          "logo": "https://cricketvectors.akamaized.net/Teams/MY.png"
-        },
-        "away": {
-          "name": "Pretoria Capitals",
-          "logo": "https://cricketvectors.akamaized.net/Teams/MZ.png"
-        }
-      },
-      "channels": []
-    },
-    {
-      "match_id": 21,
-      "league": "Unknown League",
-      "status": "upcoming",
-      "start_date": "2026-01-10",
-      "start_time": "Jan 10, 3:30 PM",
-      "teams": {
-        "home": {
-          "name": "Joburg Super Kings",
-          "logo": "https://cricketvectors.akamaized.net/Teams/MX.png"
-        },
-        "away": {
-          "name": "MI Cape Town",
-          "logo": "https://cricketvectors.akamaized.net/Teams/MW.png"
-        }
-      },
-      "channels": []
-    },
-    {
       "match_id": 22,
       "league": "Unknown League",
       "status": "upcoming",
@@ -751,7 +757,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/N1.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
     },
     {
       "match_id": 23,
@@ -769,7 +796,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MW.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
     },
     {
       "match_id": 24,
@@ -787,7 +835,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/N1.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
     },
     {
       "match_id": 25,
@@ -805,7 +874,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MX.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
     },
     {
       "match_id": 26,
@@ -823,7 +913,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MY.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
     },
     {
       "match_id": 27,
@@ -841,7 +952,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/N0.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
     },
     {
       "match_id": 28,
@@ -859,7 +991,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MY.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
     },
     {
       "match_id": 29,
@@ -877,7 +1030,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/MZ.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Fox Sports 505 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
+        },
+        {
+          "id": 2,
+          "name": "Fox Sports 501 hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
+        },
+        {
+          "id": 3,
+          "name": "Star sports 2 ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
+        },
+        {
+          "id": 4,
+          "name": "Super Sports hd",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
+        }
+      ]
     },
     {
       "match_id": 30,
