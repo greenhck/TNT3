@@ -684,16 +684,16 @@
     {
       "match_id": 19,
       "league": "Unknown League",
-      "status": "upcoming",
+      "status": "live",
       "start_date": "2026-01-09",
-      "start_time": "Jan 9, 3:30 PM",
+      "start_time": "Live",
       "teams": {
         "home": {
-          "name": "Durban Super Giants",
+          "name": "DSG",
           "logo": "https://cricketvectors.akamaized.net/Teams/N1.png"
         },
         "away": {
-          "name": "Sunrisers Eastern Cape",
+          "name": "SEC",
           "logo": "https://cricketvectors.akamaized.net/Teams/N0.png"
         }
       },
