@@ -2102,24 +2102,6 @@
     {
       "match_id": 66,
       "league": "Unknown League",
-      "status": "live",
-      "start_date": "2026-01-09",
-      "start_time": "Live",
-      "teams": {
-        "home": {
-          "name": "NE",
-          "logo": "https://cricketvectors.akamaized.net/Teams/1E1.png"
-        },
-        "away": {
-          "name": "RGR",
-          "logo": "https://cricketvectors.akamaized.net/Teams/5T.png"
-        }
-      },
-      "channels": []
-    },
-    {
-      "match_id": 67,
-      "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-11",
       "start_time": "Jan 11, 7:00 AM",
@@ -2136,7 +2118,7 @@
       "channels": []
     },
     {
-      "match_id": 68,
+      "match_id": 67,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-11",
@@ -2154,7 +2136,7 @@
       "channels": []
     },
     {
-      "match_id": 69,
+      "match_id": 68,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-12",
@@ -2172,7 +2154,7 @@
       "channels": []
     },
     {
-      "match_id": 70,
+      "match_id": 69,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-12",
@@ -2190,7 +2172,7 @@
       "channels": []
     },
     {
-      "match_id": 71,
+      "match_id": 70,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-15",
@@ -2208,7 +2190,7 @@
       "channels": []
     },
     {
-      "match_id": 72,
+      "match_id": 71,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-15",
@@ -2226,7 +2208,7 @@
       "channels": []
     },
     {
-      "match_id": 73,
+      "match_id": 72,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-16",
@@ -2244,7 +2226,7 @@
       "channels": []
     },
     {
-      "match_id": 74,
+      "match_id": 73,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-16",
@@ -2262,7 +2244,7 @@
       "channels": []
     },
     {
-      "match_id": 75,
+      "match_id": 74,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -2280,7 +2262,7 @@
       "channels": []
     },
     {
-      "match_id": 76,
+      "match_id": 75,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-17",
@@ -2298,7 +2280,7 @@
       "channels": []
     },
     {
-      "match_id": 77,
+      "match_id": 76,
       "league": "Unknown League",
       "status": "upcoming",
       "start_date": "2026-01-19",
