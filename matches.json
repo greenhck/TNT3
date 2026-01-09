@@ -990,52 +990,20 @@
     {
       "match_id": 36,
       "league": "Unknown League",
-      "status": "upcoming",
+      "status": "live",
       "start_date": "2026-01-09",
-      "start_time": "Jan 9, 2:00 PM",
+      "start_time": "Live",
       "teams": {
         "home": {
-          "name": "Mumbai Indians Women",
+          "name": "MIW",
           "logo": "https://cricketvectors.akamaized.net/Teams/QK.png"
         },
         "away": {
-          "name": "Royal Challengers Bengaluru Women",
+          "name": "RCBW",
           "logo": "https://cricketvectors.akamaized.net/Teams/QL.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Sky sports cricket",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
-        },
-        {
-          "id": 2,
-          "name": "Star sports 1 hindi",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
-        },
-        {
-          "id": 3,
-          "name": "Star sports 1 English ",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
-        },
-        {
-          "id": 4,
-          "name": "Star sports tamil ",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
-        },
-        {
-          "id": 5,
-          "name": "Star sports 1 English (all quality)",
-          "stream_url": "https://livetv-push.hotstar.com/dash/live/2002464/sshd1livetvwv/master.mpd%7Ccookie=hdntl=exp=1768038879~acl=*sshd1livetv*~id=3344e4d04b731da17c5f3f205d791952~data=hdntl~hmac=0b84cd7b65de7c6370b4ebc3e0924d1490053926cb2eaec82eeb131d4a9fb456&User-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169+(Android/15)&drmScheme=clearkey&drmLicense=fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
-        },
-        {
-          "id": 4,
-          "name": "Star sports 1 hindi (all quality)",
-          "stream_url": "https://livetv-push.hotstar.com/dash/live/2002466/sshindiwv/master.mpd%7Ccookie=hdntl=exp=1768038798~acl=*sshindi*~id=7cecf4351ba31bde0e0474cf95ed573a~data=hdntl~hmac=dfd8ba9e098de1f4d6e8e7117ffcf34e0bb29a9132004081665724817b954243&User-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169+(Android/15)&drmScheme=clearkey&drmLicense=fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
-        }
-        
-      ]
+      "channels": []
     },
     {
       "match_id": 37,
