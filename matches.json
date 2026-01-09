@@ -679,6 +679,11 @@
           "id": 3,
           "name": "Star sports 1 English ",
           "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+        {
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
         }
       ]
     },
@@ -713,6 +718,11 @@
           "id": 3,
           "name": "Star sports 1 English ",
           "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+        {
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
         }
       ]
     },
@@ -747,6 +757,16 @@
           "id": 3,
           "name": "Star sports 1 English ",
           "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+        {
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+        },
+        {
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
         }
       ]
     },
@@ -781,6 +801,11 @@
           "id": 3,
           "name": "Star sports 1 English ",
           "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+        {
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
         }
       ]
     },
@@ -815,6 +840,11 @@
           "id": 3,
           "name": "Star sports 1 English ",
           "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+        {
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
         }
       ]
     },
@@ -849,6 +879,11 @@
           "id": 3,
           "name": "Star sports 1 English ",
           "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+        {
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
         }
       ]
     },
@@ -868,7 +903,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/QI.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 44,
@@ -886,7 +942,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/QM.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 45,
@@ -904,7 +981,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/QJ.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 46,
@@ -1156,7 +1254,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/R.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 60,
@@ -1174,7 +1293,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/R.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 61,
@@ -1192,7 +1332,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/R.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 62,
@@ -1210,7 +1371,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/R.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 63,
@@ -1228,7 +1410,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/R.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 64,
@@ -1246,7 +1449,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/R.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 65,
@@ -1264,7 +1488,28 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/R.png"
         }
       },
-      "channels": []
+      "channels": [
+        {
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}
+      ]
     },
     {
       "match_id": 66,
@@ -1282,7 +1527,26 @@
           "logo": "https://cricketvectors.akamaized.net/Teams/R.png"
         }
       },
-      "channels": []
+      "channels": [{
+          "id": 1,
+          "name": "Sky sports cricket",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
+        },
+{
+          "id": 2,
+          "name": "Star sports 1 hindi",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
+        },
+{
+          "id": 3,
+          "name": "Star sports 1 English ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
+        },
+{
+          "id": 4,
+          "name": "Star sports tamil ",
+          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
+}]
     }
   ]
 }
