@@ -1101,41 +1101,20 @@
     {
       "match_id": 34,
       "league": "Unknown League",
-      "status": "upcoming",
+      "status": "live",
       "start_date": "2026-01-10",
-      "start_time": "Jan 10, 9:30 AM",
+      "start_time": "Live",
       "teams": {
         "home": {
-          "name": "UP Warriorz Women",
+          "name": "UPW",
           "logo": "https://cricketvectors.akamaized.net/Teams/QM.png"
         },
         "away": {
-          "name": "Gujarat Giants Women",
+          "name": "GGW",
           "logo": "https://cricketvectors.akamaized.net/Teams/QJ.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Sky sports cricket",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809390"
-        },
-        {
-          "id": 2,
-          "name": "Star sports 1 hindi",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373205"
-        },
-        {
-          "id": 3,
-          "name": "Star sports 1 English ",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373206"
-        },
-        {
-          "id": 4,
-          "name": "Star sports tamil ",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373195"
-        }
-      ]
+      "channels": []
     },
     {
       "match_id": 35,
