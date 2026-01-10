@@ -5,6 +5,7 @@ import os
 import hashlib
 
 # ================= CONFIG =================
+YEAR = 2025
 URL_ENV_KEYS = ["SURL1", "SURL2", "SURL3", "SURL4", "SURL5"]
 JSON_FILE = "matches.json"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
