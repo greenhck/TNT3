@@ -21,41 +21,20 @@
     {
       "match_id": 2,
       "league": "Big Bash League",
-      "status": "upcoming",
+      "status": "live",
       "start_date": "2026-01-10",
-      "start_time": "Jan 10, 8:15 AM",
+      "start_time": "Live",
       "teams": {
         "home": {
-          "name": "Melbourne Renegades",
+          "name": "MLR",
           "logo": "https://cricketvectors.akamaized.net/Teams/4L.png"
         },
         "away": {
-          "name": "Melbourne Stars",
+          "name": "MLS",
           "logo": "https://cricketvectors.akamaized.net/Teams/4M.png"
         }
       },
-      "channels": [
-        {
-          "id": 1,
-          "name": "Fox Sports 505 hd",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944684"
-        },
-        {
-          "id": 2,
-          "name": "Fox Sports 501 hd",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=944683"
-        },
-        {
-          "id": 3,
-          "name": "Star sports 2 ",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=373204"
-        },
-        {
-          "id": 4,
-          "name": "Super Sports hd",
-          "stream_url": "https://ranapk.online/RANAPK33/TVD/play.php?id=809391"
-        }
-      ]
+      "channels": []
     },
     {
       "match_id": 3,
