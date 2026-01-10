@@ -3,14 +3,11 @@ from bs4 import BeautifulSoup
 import json
 import os
 import hashlib
-from datetime import datetime
 
 # ================= CONFIG =================
-YEAR = 2026
-URL_ENV_KEYS = ["SURL1", "SURL2", "SURL3", "SURL4", "SURL5"] # आपके Secret Keys
+URL_ENV_KEYS = ["SURL1", "SURL2", "SURL3", "SURL4", "SURL5"]
 JSON_FILE = "matches.json"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
-# =========================================
 
 def get_urls_from_secrets():
     urls = []
@@ -21,7 +18,6 @@ def get_urls_from_secrets():
     return urls
 
 def unique_key(team1, team2):
-    """टीमों के नाम के पहले 3 अक्षरों से Key बनाना ताकि 'MLR' और 'Melbourne Renegades' मैच हो सकें"""
     t1 = team1.strip()[:3].upper()
     t2 = team2.strip()[:3].upper()
     t_names = sorted([t1, t2])
@@ -35,28 +31,20 @@ def load_existing_channels():
             with open(JSON_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 for m in data.get("matches", []):
-                    # पुरानी फाइल से डेटा उठाना
                     k = unique_key(m['teams']['home']['name'], m['teams']['away']['name'])
                     if m.get("channels"):
                         channels_map[k] = m["channels"]
         except: pass
     return channels_map
 
-# 1. पुराना मैन्युअल डेटा लोड करें
 existing_channels = load_existing_channels()
 SCRAPE_URLS = get_urls_from_secrets()
-
-if not SCRAPE_URLS:
-    print("⚠️ No URLs found in Secrets! Please check SURL1, SURL2 etc.")
-    # टेस्टिंग के लिए यहाँ एक डिफ़ॉल्ट URL डाल सकते हैं: SCRAPE_URLS = ["https://example.com"]
 
 new_matches = []
 seen_keys = set()
 match_id = 1
 
-# 2. स्क्रैपिंग शुरू
 for URL in SCRAPE_URLS:
-    print(f"🔍 Scraping: {URL}")
     try:
         res = requests.get(URL, headers=HEADERS, timeout=30)
         res.raise_for_status()
@@ -67,9 +55,13 @@ for URL in SCRAPE_URLS:
             wrapper = card.select_one(".match-card-wrapper")
             if not wrapper: continue
 
-            # खत्म हो चुके मैचों को हटाना (Cleanup)
-            result_node = wrapper.select_one(".result")
-            if result_node and "Won" in result_node.text:
+            # 1. खत्म हुए और Abandoned मैचों को फ़िल्टर करें
+            text_lower = wrapper.text.lower()
+            reason_node = wrapper.select_one(".reason")
+            reason_text = reason_node.text.lower() if reason_node else ""
+
+            # अगर मैच 'Won' है या 'Abandoned' या 'No Result' है, तो उसे Skip करें
+            if ("won" in text_lower) or ("abandoned" in text_lower) or ("no result" in reason_text) or ("cancelled" in text_lower):
                 continue 
 
             teams = wrapper.select(".team-name")
@@ -79,7 +71,6 @@ for URL in SCRAPE_URLS:
             t1_name = teams[0].text.strip()
             t2_name = teams[1].text.strip()
 
-            # स्टेटस और टाइम लॉजिक
             status = "upcoming"
             start_time = "Upcoming"
             
@@ -92,12 +83,10 @@ for URL in SCRAPE_URLS:
                 if time_node:
                     start_time = time_node.text.strip()
 
-            # Unique Key जनरेट करें
             key = unique_key(t1_name, t2_name)
             if key in seen_keys: continue
             seen_keys.add(key)
 
-            # पुराना चैनल डेटा वापस डालें
             saved_channels = existing_channels.get(key, [])
 
             new_matches.append({
@@ -112,12 +101,11 @@ for URL in SCRAPE_URLS:
             })
             match_id += 1
     except Exception as e:
-        print(f"❌ Error on {URL}: {e}")
+        print(f"Error: {e}")
 
-# 3. फाइनल सेव
 if new_matches:
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump({"matches": new_matches}, f, indent=2, ensure_ascii=False)
-    print(f"✅ JSON Updated: {len(new_matches)} matches saved. Manual data preserved.")
+    print(f"✅ Success: {len(new_matches)} active matches saved.")
 else:
-    print("⚠️ Scraping returned 0 matches. File NOT updated to protect your data.")
+    print("⚠️ No active matches found. Old data preserved.")
