@@ -1,11 +1,31 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Slavia Prague vs Barcelona - MD 7 - 22 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Marseille vs Liverpool - MD 7 - 22 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Marseille vs Liverpool - MD 7 - 22 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Marseille vs Liverpool - MD 7 - 22 Jan 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Marseille vs Liverpool - MD 7 - 22 Jan 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Pafos - MD 7 - 22 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Bayern Munich vs Union SG - MD 7 - 22 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Galatasaray vs Atletico - MD 7 - 21 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769065602~acl=/*~id=41035565370438404001305773457120~hmac=6c4e9025a969d27cc43e4c0818b90ce74003c0ee393a1090fe5e2211516c5fe3
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Galatasaray vs Atletico - MD 7 - 21 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769065602~acl=/*~id=41035565370438404001305773457120~hmac=6c4e9025a969d27cc43e4c0818b90ce74003c0ee393a1090fe5e2211516c5fe3
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Galatasaray vs Atletico - MD 7 - 21 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769065602~acl=/*~id=41035565370438404001305773457120~hmac=6c4e9025a969d27cc43e4c0818b90ce74003c0ee393a1090fe5e2211516c5fe3
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Galatasaray vs Atletico - MD 7 - 21 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769065602~acl=/*~id=41035565370438404001305773457120~hmac=6c4e9025a969d27cc43e4c0818b90ce74003c0ee393a1090fe5e2211516c5fe3
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Newcastle vs PSV - MD 7 - 22 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Juventus vs Benfica - MD 7 - 22 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Atalanta vs Athletic Club - MD 7 - 22 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Qarabag vs Frankfurt - MD 7 - 21 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769065602~acl=/*~id=41035565370438404001305773457120~hmac=6c4e9025a969d27cc43e4c0818b90ce74003c0ee393a1090fe5e2211516c5fe3
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769067427~acl=/*~id=78300057586608269766437028754660~hmac=6e6c53760f29e43ec3c880f94c6daed69870c9fb6d7a816ef9534ea12d8c5c00
