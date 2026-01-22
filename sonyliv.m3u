@@ -1,11 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - Round 2 - 22 Jan 2026	 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769111207~acl=/*~id=15034516370547348348486026007718~hmac=be1e043a9e6fa585685331cdba272586f9d62c86ed1e35f0b071b62f7ffc41f1
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - Round 2 - 22 Jan 2026	 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769111207~acl=/*~id=15034516370547348348486026007718~hmac=be1e043a9e6fa585685331cdba272586f9d62c86ed1e35f0b071b62f7ffc41f1
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - Round 2 - 22 Jan 2026	 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769111207~acl=/*~id=15034516370547348348486026007718~hmac=be1e043a9e6fa585685331cdba272586f9d62c86ed1e35f0b071b62f7ffc41f1
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - Round 2 - 22 Jan 2026	 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769111207~acl=/*~id=15034516370547348348486026007718~hmac=be1e043a9e6fa585685331cdba272586f9d62c86ed1e35f0b071b62f7ffc41f1
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Duckworth vs Sinner - Round 2 - 22 Jan 2026	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769114245~acl=/*~id=79254327586477004170069018506202~hmac=081b5c4557b31c8a14c08bfc173925b28bf8184fc3fddfd6eacc1d25b1dbac05
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Duckworth vs Sinner - Round 2 - 22 Jan 2026	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769114245~acl=/*~id=79254327586477004170069018506202~hmac=081b5c4557b31c8a14c08bfc173925b28bf8184fc3fddfd6eacc1d25b1dbac05
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Duckworth vs Sinner - Round 2 - 22 Jan 2026	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769114245~acl=/*~id=79254327586477004170069018506202~hmac=081b5c4557b31c8a14c08bfc173925b28bf8184fc3fddfd6eacc1d25b1dbac05
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Duckworth vs Sinner - Round 2 - 22 Jan 2026	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769114245~acl=/*~id=79254327586477004170069018506202~hmac=081b5c4557b31c8a14c08bfc173925b28bf8184fc3fddfd6eacc1d25b1dbac05
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st ODI - 22 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769114245~acl=/*~id=79254327586477004170069018506202~hmac=081b5c4557b31c8a14c08bfc173925b28bf8184fc3fddfd6eacc1d25b1dbac05
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Hero Dubai Desert Classic Day 1 - 22 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769111207~acl=/*~id=15034516370547348348486026007718~hmac=be1e043a9e6fa585685331cdba272586f9d62c86ed1e35f0b071b62f7ffc41f1
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769114245~acl=/*~id=79254327586477004170069018506202~hmac=081b5c4557b31c8a14c08bfc173925b28bf8184fc3fddfd6eacc1d25b1dbac05
