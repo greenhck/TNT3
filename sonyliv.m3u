@@ -1,11 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 22 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 22 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 22 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 22 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st ODI - 22 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769135552~acl=/*~id=55848646755782873058166794465970~hmac=7f3199b4b00179937397717b7f9054f159cecdb188e51a029d4068ab4e53ead3
