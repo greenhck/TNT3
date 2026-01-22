@@ -1,3 +1,19 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st ODI - 22 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769144048~acl=/*~id=57224910648136020121726353118773~hmac=c17254330a2ad226a3bc77938a847a06f2f02799244377da26e87726353eca3b
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Fenerbahce vs Aston Villa - MD 7 - 22 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769146490~acl=/*~id=67739624437103020955719958283288~hmac=fd8c65382739656db1ecaf1efda088084ee4093b7fa20c2158f06a4056c8da18
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",PAOK vs Real Betis - MD 7 - 22 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769146490~acl=/*~id=67739624437103020955719958283288~hmac=fd8c65382739656db1ecaf1efda088084ee4093b7fa20c2158f06a4056c8da18
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Young Boys vs Lyon - MD 7 - 22 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769146490~acl=/*~id=67739624437103020955719958283288~hmac=fd8c65382739656db1ecaf1efda088084ee4093b7fa20c2158f06a4056c8da18
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Viktoria Plzen vs Porto - MD 7 - 22 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769146490~acl=/*~id=67739624437103020955719958283288~hmac=fd8c65382739656db1ecaf1efda088084ee4093b7fa20c2158f06a4056c8da18
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Freiburg vs M. Tel-Aviv - MD 7 - 22 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769146490~acl=/*~id=67739624437103020955719958283288~hmac=fd8c65382739656db1ecaf1efda088084ee4093b7fa20c2158f06a4056c8da18
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Bologna vs Celtic - MD 7 - 22 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769146490~acl=/*~id=67739624437103020955719958283288~hmac=fd8c65382739656db1ecaf1efda088084ee4093b7fa20c2158f06a4056c8da18
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Brann vs Midtjylland - MD 7 - 22 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2005445/DAI06ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769146490~acl=/*~id=67739624437103020955719958283288~hmac=fd8c65382739656db1ecaf1efda088084ee4093b7fa20c2158f06a4056c8da18
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Malmö vs Crvena Zvezda - MD 7 - 22 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769146490~acl=/*~id=67739624437103020955719958283288~hmac=fd8c65382739656db1ecaf1efda088084ee4093b7fa20c2158f06a4056c8da18
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Feyenoord vs Sturm Graz - MD 7 - 22 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769146490~acl=/*~id=67739624437103020955719958283288~hmac=fd8c65382739656db1ecaf1efda088084ee4093b7fa20c2158f06a4056c8da18
