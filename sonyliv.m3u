@@ -1,17 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Munar vs Ruud - Round 2 - 22 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769130065~acl=/*~id=90783129574240935883175860254609~hmac=23c28eeafde2ce0b57e48137c5aca49e8328cb542e0271a6961f8aaad96cdab8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Munar vs Ruud - Round 2 - 22 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769130065~acl=/*~id=90783129574240935883175860254609~hmac=23c28eeafde2ce0b57e48137c5aca49e8328cb542e0271a6961f8aaad96cdab8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Munar vs Ruud - Round 2 - 22 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769130065~acl=/*~id=90783129574240935883175860254609~hmac=23c28eeafde2ce0b57e48137c5aca49e8328cb542e0271a6961f8aaad96cdab8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Munar vs Ruud - Round 2 - 22 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769130065~acl=/*~id=90783129574240935883175860254609~hmac=23c28eeafde2ce0b57e48137c5aca49e8328cb542e0271a6961f8aaad96cdab8
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 22 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 22 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 22 Jan 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 22 Jan 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st ODI - 22 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769130065~acl=/*~id=90783129574240935883175860254609~hmac=23c28eeafde2ce0b57e48137c5aca49e8328cb542e0271a6961f8aaad96cdab8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jaume Munar vs Casper Ruud - Men's Singles - 22 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769130065~acl=/*~id=90783129574240935883175860254609~hmac=23c28eeafde2ce0b57e48137c5aca49e8328cb542e0271a6961f8aaad96cdab8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kia Arena - 22 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769130065~acl=/*~id=90783129574240935883175860254609~hmac=23c28eeafde2ce0b57e48137c5aca49e8328cb542e0271a6961f8aaad96cdab8
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",Hero Dubai Desert Classic Day 1 - 22 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769130065~acl=/*~id=90783129574240935883175860254609~hmac=23c28eeafde2ce0b57e48137c5aca49e8328cb542e0271a6961f8aaad96cdab8
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769133106~acl=/*~id=44073179302914999379251393282306~hmac=5772bd72d10224030e5dd4fe1cdc9cab2d988ef3287afb14ff1b058defb0c7c8
