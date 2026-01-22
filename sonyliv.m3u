@@ -1,1 +1,9 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tien vs Borges - Round 3 - 23 Jan 2026	 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769168035~acl=/*~id=50034338107561320109445944512311~hmac=91790ddf1afc25ae35b0558ca63772f5d999d1eb521571ba55ab99f8c4af3640
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tien vs Borges - Round 3 - 23 Jan 2026	 [HIN]
+https://liveakmt-p.slivcdn.com/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769168035~acl=/*~id=50034338107561320109445944512311~hmac=91790ddf1afc25ae35b0558ca63772f5d999d1eb521571ba55ab99f8c4af3640
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tien vs Borges - Round 3 - 23 Jan 2026	 [TAM]
+https://liveakmt-p.slivcdn.com/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769168035~acl=/*~id=50034338107561320109445944512311~hmac=91790ddf1afc25ae35b0558ca63772f5d999d1eb521571ba55ab99f8c4af3640
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tien vs Borges - Round 3 - 23 Jan 2026	 [TEL]
+https://liveakmt-p.slivcdn.com/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769168035~acl=/*~id=50034338107561320109445944512311~hmac=91790ddf1afc25ae35b0558ca63772f5d999d1eb521571ba55ab99f8c4af3640
