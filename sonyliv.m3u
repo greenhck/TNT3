@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Gauff vs Baptiste - Round 3 - 23 Jan 2026	 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769190741~acl=/*~id=90953126491632089238361221155721~hmac=17b56936dd0a33b158e1df576bb501845e636da95d7583e5f9a28940a1e428ff
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Gauff vs Baptiste - Round 3 - 23 Jan 2026	 [HIN]
-https://liveakmt-p.slivcdn.com/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769190741~acl=/*~id=90953126491632089238361221155721~hmac=17b56936dd0a33b158e1df576bb501845e636da95d7583e5f9a28940a1e428ff
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Gauff vs Baptiste - Round 3 - 23 Jan 2026	 [TAM]
-https://liveakmt-p.slivcdn.com/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769190741~acl=/*~id=90953126491632089238361221155721~hmac=17b56936dd0a33b158e1df576bb501845e636da95d7583e5f9a28940a1e428ff
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Gauff vs Baptiste - Round 3 - 23 Jan 2026	 [TEL]
-https://liveakmt-p.slivcdn.com/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769190741~acl=/*~id=90953126491632089238361221155721~hmac=17b56936dd0a33b158e1df576bb501845e636da95d7583e5f9a28940a1e428ff
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",John Cain Arena - 23 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769190741~acl=/*~id=90953126491632089238361221155721~hmac=17b56936dd0a33b158e1df576bb501845e636da95d7583e5f9a28940a1e428ff
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 23 Jan 2026	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769197451~acl=/*~id=52735545919233628490645079210040~hmac=e47cca653bdcd7873f416b6549d1a70c03c256d145af0bd2fe45acecde4a6981
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 23 Jan 2026	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769197451~acl=/*~id=52735545919233628490645079210040~hmac=e47cca653bdcd7873f416b6549d1a70c03c256d145af0bd2fe45acecde4a6981
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 23 Jan 2026	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769197451~acl=/*~id=52735545919233628490645079210040~hmac=e47cca653bdcd7873f416b6549d1a70c03c256d145af0bd2fe45acecde4a6981
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 23 Jan 2026	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769197451~acl=/*~id=52735545919233628490645079210040~hmac=e47cca653bdcd7873f416b6549d1a70c03c256d145af0bd2fe45acecde4a6981
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Canterbury Kings vs Wellington Firebirds - 23 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769190741~acl=/*~id=90953126491632089238361221155721~hmac=17b56936dd0a33b158e1df576bb501845e636da95d7583e5f9a28940a1e428ff
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769197451~acl=/*~id=52735545919233628490645079210040~hmac=e47cca653bdcd7873f416b6549d1a70c03c256d145af0bd2fe45acecde4a6981
+#EXTINF:-1 tvg-name="LIV" group-title="Golf",Hero Dubai Desert Classic Day 2 - 23 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769197451~acl=/*~id=52735545919233628490645079210040~hmac=e47cca653bdcd7873f416b6549d1a70c03c256d145af0bd2fe45acecde4a6981
