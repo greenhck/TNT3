@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tiafoe vs De Minaur - Round 3 - 23 Jan 2026	 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769208436~acl=/*~id=75356992776487806516745450774731~hmac=ea9c01a7b2b8e81207b82c9d76ca259da173b76b535028473124e64a155cae67
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tiafoe vs De Minaur - Round 3 - 23 Jan 2026	 [HIN]
-https://liveakmt-p.slivcdn.com/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769208436~acl=/*~id=75356992776487806516745450774731~hmac=ea9c01a7b2b8e81207b82c9d76ca259da173b76b535028473124e64a155cae67
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tiafoe vs De Minaur - Round 3 - 23 Jan 2026	 [TAM]
-https://liveakmt-p.slivcdn.com/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769208436~acl=/*~id=75356992776487806516745450774731~hmac=ea9c01a7b2b8e81207b82c9d76ca259da173b76b535028473124e64a155cae67
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tiafoe vs De Minaur - Round 3 - 23 Jan 2026	 [TEL]
-https://liveakmt-p.slivcdn.com/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769208436~acl=/*~id=75356992776487806516745450774731~hmac=ea9c01a7b2b8e81207b82c9d76ca259da173b76b535028473124e64a155cae67
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Ruse vs Andreeva - Round 3 - 23 Jan 2026	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769209667~acl=/*~id=72034065789710954258522927035953~hmac=cff28b519cc72026d5405cab56be6cee2df293f006db9c703a1d4db4e4a33d5a
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Ruse vs Andreeva - Round 3 - 23 Jan 2026	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769209667~acl=/*~id=72034065789710954258522927035953~hmac=cff28b519cc72026d5405cab56be6cee2df293f006db9c703a1d4db4e4a33d5a
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Ruse vs Andreeva - Round 3 - 23 Jan 2026	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769209667~acl=/*~id=72034065789710954258522927035953~hmac=cff28b519cc72026d5405cab56be6cee2df293f006db9c703a1d4db4e4a33d5a
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Ruse vs Andreeva - Round 3 - 23 Jan 2026	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769209667~acl=/*~id=72034065789710954258522927035953~hmac=cff28b519cc72026d5405cab56be6cee2df293f006db9c703a1d4db4e4a33d5a
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Alexander Zverev vs Cameron Norrie - Men's Singles - 23 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769208436~acl=/*~id=75356992776487806516745450774731~hmac=ea9c01a7b2b8e81207b82c9d76ca259da173b76b535028473124e64a155cae67
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769209667~acl=/*~id=72034065789710954258522927035953~hmac=cff28b519cc72026d5405cab56be6cee2df293f006db9c703a1d4db4e4a33d5a
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Hero Dubai Desert Classic Day 2 - 23 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769208436~acl=/*~id=75356992776487806516745450774731~hmac=ea9c01a7b2b8e81207b82c9d76ca259da173b76b535028473124e64a155cae67
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769209667~acl=/*~id=72034065789710954258522927035953~hmac=cff28b519cc72026d5405cab56be6cee2df293f006db9c703a1d4db4e4a33d5a
