@@ -1,9 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tien vs Borges - Round 3 - 23 Jan 2026	 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769168035~acl=/*~id=50034338107561320109445944512311~hmac=91790ddf1afc25ae35b0558ca63772f5d999d1eb521571ba55ab99f8c4af3640
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tien vs Borges - Round 3 - 23 Jan 2026	 [HIN]
-https://liveakmt-p.slivcdn.com/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769168035~acl=/*~id=50034338107561320109445944512311~hmac=91790ddf1afc25ae35b0558ca63772f5d999d1eb521571ba55ab99f8c4af3640
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tien vs Borges - Round 3 - 23 Jan 2026	 [TAM]
-https://liveakmt-p.slivcdn.com/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769168035~acl=/*~id=50034338107561320109445944512311~hmac=91790ddf1afc25ae35b0558ca63772f5d999d1eb521571ba55ab99f8c4af3640
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Tien vs Borges - Round 3 - 23 Jan 2026	 [TEL]
-https://liveakmt-p.slivcdn.com/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769168035~acl=/*~id=50034338107561320109445944512311~hmac=91790ddf1afc25ae35b0558ca63772f5d999d1eb521571ba55ab99f8c4af3640
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Sabalenka vs Potapova - Round 3 - 23 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769172330~acl=/*~id=76328211226250139131513273598121~hmac=382c3391ca1a8a4fdb30badb31c539f51d44b36442bd0a5660bceabadcbcda8e
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Sabalenka vs Potapova - Round 3 - 23 Jan 2026 [HIN]
+https://liveakmt-p.slivcdn.com/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769172330~acl=/*~id=76328211226250139131513273598121~hmac=382c3391ca1a8a4fdb30badb31c539f51d44b36442bd0a5660bceabadcbcda8e
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Sabalenka vs Potapova - Round 3 - 23 Jan 2026 [TAM]
+https://liveakmt-p.slivcdn.com/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769172330~acl=/*~id=76328211226250139131513273598121~hmac=382c3391ca1a8a4fdb30badb31c539f51d44b36442bd0a5660bceabadcbcda8e
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Sabalenka vs Potapova - Round 3 - 23 Jan 2026 [TEL]
+https://liveakmt-p.slivcdn.com/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769172330~acl=/*~id=76328211226250139131513273598121~hmac=382c3391ca1a8a4fdb30badb31c539f51d44b36442bd0a5660bceabadcbcda8e
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Daniil Medvedev vs Fabian Marozsan - Men's Singles - 23 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769172330~acl=/*~id=76328211226250139131513273598121~hmac=382c3391ca1a8a4fdb30badb31c539f51d44b36442bd0a5660bceabadcbcda8e
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Canterbury Magicians vs Wellington Blaze - 23 Jan 2026 [ENG]
+https://liveakmt-p.slivcdn.com/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769172330~acl=/*~id=76328211226250139131513273598121~hmac=382c3391ca1a8a4fdb30badb31c539f51d44b36442bd0a5660bceabadcbcda8e
