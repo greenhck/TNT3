@@ -1,17 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Cilic vs Ruud - Round 3 - 24 Jan 2026	 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769304651~acl=/*~id=35830999124610446341060531425798~hmac=acd9c81a554a1d4e1dd259c576f33b2872c468be9272c564ccc56feba0854c86
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Cilic vs Ruud - Round 3 - 24 Jan 2026	 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769304651~acl=/*~id=35830999124610446341060531425798~hmac=acd9c81a554a1d4e1dd259c576f33b2872c468be9272c564ccc56feba0854c86
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Cilic vs Ruud - Round 3 - 24 Jan 2026	 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769304651~acl=/*~id=35830999124610446341060531425798~hmac=acd9c81a554a1d4e1dd259c576f33b2872c468be9272c564ccc56feba0854c86
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Cilic vs Ruud - Round 3 - 24 Jan 2026	 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769304651~acl=/*~id=35830999124610446341060531425798~hmac=acd9c81a554a1d4e1dd259c576f33b2872c468be9272c564ccc56feba0854c86
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 24 Jan 2026	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769305267~acl=/*~id=48058860060433143233818317485193~hmac=86881b95ba4308748cd07f0b2aafdd04c6d1cb048183f54062dd1f79d3d64c4e
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 24 Jan 2026	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769305267~acl=/*~id=48058860060433143233818317485193~hmac=86881b95ba4308748cd07f0b2aafdd04c6d1cb048183f54062dd1f79d3d64c4e
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 24 Jan 2026	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769305267~acl=/*~id=48058860060433143233818317485193~hmac=86881b95ba4308748cd07f0b2aafdd04c6d1cb048183f54062dd1f79d3d64c4e
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 24 Jan 2026	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769305267~acl=/*~id=48058860060433143233818317485193~hmac=86881b95ba4308748cd07f0b2aafdd04c6d1cb048183f54062dd1f79d3d64c4e
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",2nd ODI - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769304651~acl=/*~id=35830999124610446341060531425798~hmac=acd9c81a554a1d4e1dd259c576f33b2872c468be9272c564ccc56feba0854c86
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769305267~acl=/*~id=48058860060433143233818317485193~hmac=86881b95ba4308748cd07f0b2aafdd04c6d1cb048183f54062dd1f79d3d64c4e
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Margaret Court Arena - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769304651~acl=/*~id=35830999124610446341060531425798~hmac=acd9c81a554a1d4e1dd259c576f33b2872c468be9272c564ccc56feba0854c86
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769305267~acl=/*~id=48058860060433143233818317485193~hmac=86881b95ba4308748cd07f0b2aafdd04c6d1cb048183f54062dd1f79d3d64c4e
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Paul/Willis - Men's Doubles - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769304651~acl=/*~id=35830999124610446341060531425798~hmac=acd9c81a554a1d4e1dd259c576f33b2872c468be9272c564ccc56feba0854c86
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769305267~acl=/*~id=48058860060433143233818317485193~hmac=86881b95ba4308748cd07f0b2aafdd04c6d1cb048183f54062dd1f79d3d64c4e
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769304651~acl=/*~id=35830999124610446341060531425798~hmac=acd9c81a554a1d4e1dd259c576f33b2872c468be9272c564ccc56feba0854c86
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769305267~acl=/*~id=48058860060433143233818317485193~hmac=86881b95ba4308748cd07f0b2aafdd04c6d1cb048183f54062dd1f79d3d64c4e
