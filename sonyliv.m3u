@@ -1,19 +1,25 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elise Mertens vs Nikola Bartunkova - Women's Singles - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769276284~acl=/*~id=53731375025569604858721417497324~hmac=404091395541440da8f13b375ffc0060693c7f610e6e2dab9299901c53bbe345
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elise Mertens vs Nikola Bartunkova - Women's Singles - 24 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769276284~acl=/*~id=53731375025569604858721417497324~hmac=404091395541440da8f13b375ffc0060693c7f610e6e2dab9299901c53bbe345
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elise Mertens vs Nikola Bartunkova - Women's Singles - 24 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769276284~acl=/*~id=53731375025569604858721417497324~hmac=404091395541440da8f13b375ffc0060693c7f610e6e2dab9299901c53bbe345
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elise Mertens vs Nikola Bartunkova - Women's Singles - 24 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769276284~acl=/*~id=53731375025569604858721417497324~hmac=404091395541440da8f13b375ffc0060693c7f610e6e2dab9299901c53bbe345
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Wawrinka vs Fritz - Round 3 - 24 Jan 2026	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Wawrinka vs Fritz - Round 3 - 24 Jan 2026	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Wawrinka vs Fritz - Round 3 - 24 Jan 2026	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Wawrinka vs Fritz - Round 3 - 24 Jan 2026	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Central Stags vs Otago Volts - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769276284~acl=/*~id=53731375025569604858721417497324~hmac=404091395541440da8f13b375ffc0060693c7f610e6e2dab9299901c53bbe345
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Ben Shelton vs Valentin Vacherot - Men's Singles - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769276284~acl=/*~id=53731375025569604858721417497324~hmac=404091395541440da8f13b375ffc0060693c7f610e6e2dab9299901c53bbe345
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elise Mertens vs Nikola Bartunkova - Women's Singles - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769276284~acl=/*~id=53731375025569604858721417497324~hmac=404091395541440da8f13b375ffc0060693c7f610e6e2dab9299901c53bbe345
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",John Cain Arena - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
+#EXTINF:-1 tvg-name="LIV" group-title="Golf",Hero Dubai Desert Classic Day 3 - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Linda Noskova vs Xinyu Wang - Women's Singles - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Birrell/Gibson vs Errani/Paolini - Women's Doubles - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",1573 Arena - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769276284~acl=/*~id=53731375025569604858721417497324~hmac=404091395541440da8f13b375ffc0060693c7f610e6e2dab9299901c53bbe345
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 3 - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769276284~acl=/*~id=53731375025569604858721417497324~hmac=404091395541440da8f13b375ffc0060693c7f610e6e2dab9299901c53bbe345
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769279964~acl=/*~id=03778807980475507540268718912851~hmac=1de284eaefb8abc869371dcab806e0198c03da915a0abd8c50af1c007fb6b52b
