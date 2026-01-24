@@ -1,21 +1,33 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Wawrinka vs Fritz - Round 3 - 24 Jan 2026	 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Wawrinka vs Fritz - Round 3 - 24 Jan 2026	 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Wawrinka vs Fritz - Round 3 - 24 Jan 2026	 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Wawrinka vs Fritz - Round 3 - 24 Jan 2026	 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Central Stags vs Otago Volts - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Margaret Court Arena - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stan Wawrinka vs Taylor Fritz - Men's Singles - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Gonzalez/Pel vs Bhambri/Goransson - Men's Doubles - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI28ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Hero Dubai Desert Classic Day 3 - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kia Arena - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Rod Laver Arena - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Birrell/Gibson vs Errani/Paolini - Women's Doubles - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",1573 Arena - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 3 - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769281197~acl=/*~id=07209809056850171488678377132661~hmac=211e374686b98680b7585f9386e309abbc859b08f6a3e91ac3cd668d85098064
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Court 6 - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769283036~acl=/*~id=03193050085973616618411976353416~hmac=e6b39aa2a278a092bdfa68085d225a9d35b728d6a103b25df83b97cf69527504
