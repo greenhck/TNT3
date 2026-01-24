@@ -1,25 +1,33 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Pliskova vs Keys - Round 3 - 24 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Pliskova vs Keys - Round 3 - 24 Jan 2026 [HIN]
-https://liveakmt-p.slivcdn.com/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Pliskova vs Keys - Round 3 - 24 Jan 2026 [TAM]
-https://liveakmt-p.slivcdn.com/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Pliskova vs Keys - Round 3 - 24 Jan 2026 [TEL]
-https://liveakmt-p.slivcdn.com/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jessica Pegula vs Oksana Selekhmeteva - Women's Singles - 24 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Spizzirri vs Sinner - Round 3 - 24 Jan 2026	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Spizzirri vs Sinner - Round 3 - 24 Jan 2026	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Spizzirri vs Sinner - Round 3 - 24 Jan 2026	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Spizzirri vs Sinner - Round 3 - 24 Jan 2026	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Central Hinds vs Otago Sparks - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Lorenzo Musetti vs Tomas Machac - Men's Singles - 24 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Arevalo-Gonzalez/Pavic vs Sriram/Oberleitner - Men's Doubles - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI28ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Peyton Stearns vs Amanda Anisimova - Women's Singles - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Karen Khachanov vs Luciano Darderi - Men's Singles - 24 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Karolina Pliskova vs Madison Keys - Women's Singles - 24 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Guo/Mladenovic vs Pavlyuchenkova/Tauson - Women's Doubles - 24 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2022317/DAI13ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Erler/Galloway vs Heliovaara/Patten - Men's Doubles - 24 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2022316/DAI12ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Doumbia/Reboul vs Arribage/Olivetti - Men's Doubles - 24 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2037139/DAI30ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Eliot Spizzirri vs Jannik Sinner - Men's Singles - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Birrell/Gibson vs Errani/Paolini - Women's Doubles - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Moutet/Sanchez vs Granollers/Zeballos - Men's Doubles - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Court 13 - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI30ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 24 Jan 2026 [ENG]
-https://liveakmt-p.slivcdn.com/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769255403~acl=/*~id=83837786868956353475710511075700~hmac=1f952d73263b7c3988e857fe5b99c131925a4b82380861bfd1f2dad36c95307f
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 3 - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Court 6 - 24 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769264637~acl=/*~id=14768397897814542995928973113117~hmac=5d10ed6d07d278b6dfcefa440f84f7d74bdc0611899283da327ecff63ca110e5
