@@ -1,3 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Union Berlin vs Borussia Dortmund - MD 19 - 24 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769316867~acl=/*~id=97967357229698516699091465562589~hmac=a5ee3b12ec1a7768ccce15cf4b34281bc921011f3b7f12f09841af25947a7667
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Delhi Warriors vs Dubai Royals - 26 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769489084~acl=/*~id=49016516165427246023876645393180~hmac=bf638a62d84bc385f5f95918046b7583b464e22d89ff746f909b5c37f4abecd0
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Wrestling",Maharashtra Kesari vs Punjab Royals - 26 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769489084~acl=/*~id=49016516165427246023876645393180~hmac=bf638a62d84bc385f5f95918046b7583b464e22d89ff746f909b5c37f4abecd0
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Wrestling",Maharashtra Kesari vs Punjab Royals - 26 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769489084~acl=/*~id=49016516165427246023876645393180~hmac=bf638a62d84bc385f5f95918046b7583b464e22d89ff746f909b5c37f4abecd0
