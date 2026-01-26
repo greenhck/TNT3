@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Margaret Court Arena - 27 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769514613~acl=/*~id=76842674850273772688255189556170~hmac=cbbfe55a716075dc42614e9667f34a134460c67921a3b550ca456bf8ce04fcbd
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 27 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769514613~acl=/*~id=76842674850273772688255189556170~hmac=cbbfe55a716075dc42614e9667f34a134460c67921a3b550ca456bf8ce04fcbd
