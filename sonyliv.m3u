@@ -1,11 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",3rd ODI - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769575706~acl=/*~id=60603395989542462297434320781670~hmac=9cff402e5202b26bc93333d806336fe0531c9a2a84ee22ff6762b35c166ccd53
 #EXTINF:-1 tvg-name="LIV" group-title="Cricket",Rajasthan Lions vs Maharashtra Tycoons - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769575706~acl=/*~id=60603395989542462297434320781670~hmac=9cff402e5202b26bc93333d806336fe0531c9a2a84ee22ff6762b35c166ccd53
-#EXTINF:-1 tvg-name="LIV" group-title="Pickleball",Dilli Dilwale vs Chennai Super Champs - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769575706~acl=/*~id=60603395989542462297434320781670~hmac=9cff402e5202b26bc93333d806336fe0531c9a2a84ee22ff6762b35c166ccd53
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769578146~acl=/*~id=62437698595316000049185879930083~hmac=2aa9767da01d6a053eabf9fdcfcc22b3076cdad9667d720c194ccc284785460a
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Wrestling",Delhi Dangal Warriors vs Tiigers Of Mumbai Dangal - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769575706~acl=/*~id=60603395989542462297434320781670~hmac=9cff402e5202b26bc93333d806336fe0531c9a2a84ee22ff6762b35c166ccd53
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769578146~acl=/*~id=62437698595316000049185879930083~hmac=2aa9767da01d6a053eabf9fdcfcc22b3076cdad9667d720c194ccc284785460a
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Wrestling",Delhi Dangal Warriors vs Tiigers Of Mumbai Dangal - 27 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769575706~acl=/*~id=60603395989542462297434320781670~hmac=9cff402e5202b26bc93333d806336fe0531c9a2a84ee22ff6762b35c166ccd53
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769578146~acl=/*~id=62437698595316000049185879930083~hmac=2aa9767da01d6a053eabf9fdcfcc22b3076cdad9667d720c194ccc284785460a
