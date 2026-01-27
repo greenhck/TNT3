@@ -1,17 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769562295~acl=/*~id=90754418213201941337902949367479~hmac=b06ff7879b93dddd927f3022dc73075b9509af7747d56f0eecf0d8da225c61d8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 27 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769562295~acl=/*~id=90754418213201941337902949367479~hmac=b06ff7879b93dddd927f3022dc73075b9509af7747d56f0eecf0d8da225c61d8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 27 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769562295~acl=/*~id=90754418213201941337902949367479~hmac=b06ff7879b93dddd927f3022dc73075b9509af7747d56f0eecf0d8da225c61d8
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 27 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769562295~acl=/*~id=90754418213201941337902949367479~hmac=b06ff7879b93dddd927f3022dc73075b9509af7747d56f0eecf0d8da225c61d8
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",3rd ODI - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769562295~acl=/*~id=90754418213201941337902949367479~hmac=b06ff7879b93dddd927f3022dc73075b9509af7747d56f0eecf0d8da225c61d8
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769565354~acl=/*~id=90015655682561496027564180529502~hmac=a5199d22408c517178e08184915771b4735cbcb49a4787cb49844c0f937e539c
 #EXTINF:-1 tvg-name="LIV" group-title="Cricket",Pune Panthers vs Gurugram Thunders - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769562295~acl=/*~id=90754418213201941337902949367479~hmac=b06ff7879b93dddd927f3022dc73075b9509af7747d56f0eecf0d8da225c61d8
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769565354~acl=/*~id=90015655682561496027564180529502~hmac=a5199d22408c517178e08184915771b4735cbcb49a4787cb49844c0f937e539c
 #EXTINF:-1 tvg-name="LIV" group-title="Cricket",Rajasthan Lions vs Maharashtra Tycoons - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769562295~acl=/*~id=90754418213201941337902949367479~hmac=b06ff7879b93dddd927f3022dc73075b9509af7747d56f0eecf0d8da225c61d8
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769565354~acl=/*~id=90015655682561496027564180529502~hmac=a5199d22408c517178e08184915771b4735cbcb49a4787cb49844c0f937e539c
 #EXTINF:-1 tvg-name="LIV" group-title="Pickleball",Bengaluru Jawans vs Pune United - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769562295~acl=/*~id=90754418213201941337902949367479~hmac=b06ff7879b93dddd927f3022dc73075b9509af7747d56f0eecf0d8da225c61d8
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769565354~acl=/*~id=90015655682561496027564180529502~hmac=a5199d22408c517178e08184915771b4735cbcb49a4787cb49844c0f937e539c
