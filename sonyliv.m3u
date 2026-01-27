@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Margaret Court Arena - 28 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769600613~acl=/*~id=23569688944250993800106899882691~hmac=df69a696f2d291a83ede935003aa0bb59cfa7c8e52288b08100f5dec7988d8b6
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",ANZ Arena - 28 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769600613~acl=/*~id=23569688944250993800106899882691~hmac=df69a696f2d291a83ede935003aa0bb59cfa7c8e52288b08100f5dec7988d8b6
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 28 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769600613~acl=/*~id=23569688944250993800106899882691~hmac=df69a696f2d291a83ede935003aa0bb59cfa7c8e52288b08100f5dec7988d8b6
