@@ -1,13 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - Quarter-final - 27 Jan 2026	 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769543377~acl=/*~id=57456996627223453257325222616548~hmac=fd94c49d9255e2871993e8eb47b6a03e6f95d91b820930e6005a2422b1022994
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - Quarter-final - 27 Jan 2026	 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769543377~acl=/*~id=57456996627223453257325222616548~hmac=fd94c49d9255e2871993e8eb47b6a03e6f95d91b820930e6005a2422b1022994
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - Quarter-final - 27 Jan 2026	 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769543377~acl=/*~id=57456996627223453257325222616548~hmac=fd94c49d9255e2871993e8eb47b6a03e6f95d91b820930e6005a2422b1022994
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - Quarter-final - 27 Jan 2026	 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769543377~acl=/*~id=57456996627223453257325222616548~hmac=fd94c49d9255e2871993e8eb47b6a03e6f95d91b820930e6005a2422b1022994
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Doumbia/Reboul - Men's Doubles - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769543377~acl=/*~id=57456996627223453257325222616548~hmac=fd94c49d9255e2871993e8eb47b6a03e6f95d91b820930e6005a2422b1022994
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Coco Gauff vs Elina Svitolina - Quarter-final - 27 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769546427~acl=/*~id=96794341049677336700542374052102~hmac=505bb85419bcf2d4d7822792723440166646f13c03ef10d9654ca2af7a1ee8bb
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Coco Gauff vs Elina Svitolina - Quarter-final - 27 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769546427~acl=/*~id=96794341049677336700542374052102~hmac=505bb85419bcf2d4d7822792723440166646f13c03ef10d9654ca2af7a1ee8bb
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Coco Gauff vs Elina Svitolina - Quarter-final - 27 Jan 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769546427~acl=/*~id=96794341049677336700542374052102~hmac=505bb85419bcf2d4d7822792723440166646f13c03ef10d9654ca2af7a1ee8bb
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Coco Gauff vs Elina Svitolina - Quarter-final - 27 Jan 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769546427~acl=/*~id=96794341049677336700542374052102~hmac=505bb85419bcf2d4d7822792723440166646f13c03ef10d9654ca2af7a1ee8bb
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",3rd ODI - 27 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769546427~acl=/*~id=96794341049677336700542374052102~hmac=505bb85419bcf2d4d7822792723440166646f13c03ef10d9654ca2af7a1ee8bb
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Pune Panthers vs Gurugram Thunders - 27 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769546427~acl=/*~id=96794341049677336700542374052102~hmac=505bb85419bcf2d4d7822792723440166646f13c03ef10d9654ca2af7a1ee8bb
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Margaret Court Arena - 27 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769546427~acl=/*~id=96794341049677336700542374052102~hmac=505bb85419bcf2d4d7822792723440166646f13c03ef10d9654ca2af7a1ee8bb
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 27 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769543377~acl=/*~id=57456996627223453257325222616548~hmac=fd94c49d9255e2871993e8eb47b6a03e6f95d91b820930e6005a2422b1022994
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769546427~acl=/*~id=96794341049677336700542374052102~hmac=505bb85419bcf2d4d7822792723440166646f13c03ef10d9654ca2af7a1ee8bb
