@@ -1,15 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Peers/ Gadecki vs Mektic/ Townsend - 28 Jan 2026	 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769628596~acl=/*~id=48030629803904557764620473821282~hmac=c84fd29641681af689b3152cd6ba402e5b36e6a2eb910e85e2686cd037757d5d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Peers/ Gadecki vs Mektic/ Townsend - 28 Jan 2026	 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769628596~acl=/*~id=48030629803904557764620473821282~hmac=c84fd29641681af689b3152cd6ba402e5b36e6a2eb910e85e2686cd037757d5d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Peers/ Gadecki vs Mektic/ Townsend - 28 Jan 2026	 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769628596~acl=/*~id=48030629803904557764620473821282~hmac=c84fd29641681af689b3152cd6ba402e5b36e6a2eb910e85e2686cd037757d5d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Peers/ Gadecki vs Mektic/ Townsend - 28 Jan 2026	 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769628596~acl=/*~id=48030629803904557764620473821282~hmac=c84fd29641681af689b3152cd6ba402e5b36e6a2eb910e85e2686cd037757d5d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Peers J / Gadecki O vs Mektic N / Townsend T - Mixed Doubles - 28 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769628596~acl=/*~id=48030629803904557764620473821282~hmac=c84fd29641681af689b3152cd6ba402e5b36e6a2eb910e85e2686cd037757d5d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 28 Jan 2026	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769629204~acl=/*~id=23051524242690717582996543556233~hmac=d19a6cd1d1e07489b12389bb17035192ba4cd83f6336465ab14aa5cfa51bf6ae
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 28 Jan 2026	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769629204~acl=/*~id=23051524242690717582996543556233~hmac=d19a6cd1d1e07489b12389bb17035192ba4cd83f6336465ab14aa5cfa51bf6ae
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 28 Jan 2026	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769629204~acl=/*~id=23051524242690717582996543556233~hmac=d19a6cd1d1e07489b12389bb17035192ba4cd83f6336465ab14aa5cfa51bf6ae
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 28 Jan 2026	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769629204~acl=/*~id=23051524242690717582996543556233~hmac=d19a6cd1d1e07489b12389bb17035192ba4cd83f6336465ab14aa5cfa51bf6ae
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Margaret Court Arena - 28 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769629204~acl=/*~id=23051524242690717582996543556233~hmac=d19a6cd1d1e07489b12389bb17035192ba4cd83f6336465ab14aa5cfa51bf6ae
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 28 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769628596~acl=/*~id=48030629803904557764620473821282~hmac=c84fd29641681af689b3152cd6ba402e5b36e6a2eb910e85e2686cd037757d5d
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769629204~acl=/*~id=23051524242690717582996543556233~hmac=d19a6cd1d1e07489b12389bb17035192ba4cd83f6336465ab14aa5cfa51bf6ae
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Rod Laver Arena - 28 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769628596~acl=/*~id=48030629803904557764620473821282~hmac=c84fd29641681af689b3152cd6ba402e5b36e6a2eb910e85e2686cd037757d5d
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769629204~acl=/*~id=23051524242690717582996543556233~hmac=d19a6cd1d1e07489b12389bb17035192ba4cd83f6336465ab14aa5cfa51bf6ae
