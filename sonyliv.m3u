@@ -1,15 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Johnson/Zielinski - Semi-final - 29 Jan 2026 	 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769702988~acl=/*~id=30670951448481182643388132699028~hmac=3f2e24f814b4d761162cebf9a78dcd4172bd68773c057c1d3414a86514de3694
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Johnson/Zielinski - Semi-final - 29 Jan 2026 	 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769702988~acl=/*~id=30670951448481182643388132699028~hmac=3f2e24f814b4d761162cebf9a78dcd4172bd68773c057c1d3414a86514de3694
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Johnson/Zielinski - Semi-final - 29 Jan 2026 	 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769702988~acl=/*~id=30670951448481182643388132699028~hmac=3f2e24f814b4d761162cebf9a78dcd4172bd68773c057c1d3414a86514de3694
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Johnson/Zielinski - Semi-final - 29 Jan 2026 	 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769702988~acl=/*~id=30670951448481182643388132699028~hmac=3f2e24f814b4d761162cebf9a78dcd4172bd68773c057c1d3414a86514de3694
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Granollers/Zeballos vs Harrison/Skupski - Men's Doubles - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769702988~acl=/*~id=30670951448481182643388132699028~hmac=3f2e24f814b4d761162cebf9a78dcd4172bd68773c057c1d3414a86514de3694
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Danilina/Krunic vs Dabrowski/Stefani - Semi-final - 29 Jan 2026 	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769710882~acl=/*~id=76283422937881332641743657356718~hmac=a3a2ad25d4e3c8ca7927db903364f7aae4b6fc240522c4b323fd4dba1af73d26
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Danilina/Krunic vs Dabrowski/Stefani - Semi-final - 29 Jan 2026 	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769710882~acl=/*~id=76283422937881332641743657356718~hmac=a3a2ad25d4e3c8ca7927db903364f7aae4b6fc240522c4b323fd4dba1af73d26
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Danilina/Krunic vs Dabrowski/Stefani - Semi-final - 29 Jan 2026 	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769710882~acl=/*~id=76283422937881332641743657356718~hmac=a3a2ad25d4e3c8ca7927db903364f7aae4b6fc240522c4b323fd4dba1af73d26
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Danilina/Krunic vs Dabrowski/Stefani - Semi-final - 29 Jan 2026 	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769710882~acl=/*~id=76283422937881332641743657356718~hmac=a3a2ad25d4e3c8ca7927db903364f7aae4b6fc240522c4b323fd4dba1af73d26
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Margaret Court Arena - 29 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769710882~acl=/*~id=76283422937881332641743657356718~hmac=a3a2ad25d4e3c8ca7927db903364f7aae4b6fc240522c4b323fd4dba1af73d26
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769702988~acl=/*~id=30670951448481182643388132699028~hmac=3f2e24f814b4d761162cebf9a78dcd4172bd68773c057c1d3414a86514de3694
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Rod Laver Arena - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769702988~acl=/*~id=30670951448481182643388132699028~hmac=3f2e24f814b4d761162cebf9a78dcd4172bd68773c057c1d3414a86514de3694
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769710882~acl=/*~id=76283422937881332641743657356718~hmac=a3a2ad25d4e3c8ca7927db903364f7aae4b6fc240522c4b323fd4dba1af73d26
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Danilina/Krunic vs Dabrowski/Stefani - Women's Doubles - 29 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769710882~acl=/*~id=76283422937881332641743657356718~hmac=a3a2ad25d4e3c8ca7927db903364f7aae4b6fc240522c4b323fd4dba1af73d26
