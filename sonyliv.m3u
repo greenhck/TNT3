@@ -1,3 +1,15 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Johnson/Zielinski - Semi-final - 29 Jan 2026 	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769697506~acl=/*~id=96635842378848748922999383921841~hmac=37b6de2f939f505735b4368dec9e673baa8097f2e3f6849015969108398f918a
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Johnson/Zielinski - Semi-final - 29 Jan 2026 	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769697506~acl=/*~id=96635842378848748922999383921841~hmac=37b6de2f939f505735b4368dec9e673baa8097f2e3f6849015969108398f918a
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Johnson/Zielinski - Semi-final - 29 Jan 2026 	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769697506~acl=/*~id=96635842378848748922999383921841~hmac=37b6de2f939f505735b4368dec9e673baa8097f2e3f6849015969108398f918a
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Johnson/Zielinski - Semi-final - 29 Jan 2026 	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769697506~acl=/*~id=96635842378848748922999383921841~hmac=37b6de2f939f505735b4368dec9e673baa8097f2e3f6849015969108398f918a
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Margaret Court Arena - 29 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769697506~acl=/*~id=96635842378848748922999383921841~hmac=37b6de2f939f505735b4368dec9e673baa8097f2e3f6849015969108398f918a
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769687182~acl=/*~id=71190977366206207985412830613399~hmac=2a8b26fbfbb65eb104cf8f61221578a301a750f5397471ed138f3b230a03fe9f
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769697506~acl=/*~id=96635842378848748922999383921841~hmac=37b6de2f939f505735b4368dec9e673baa8097f2e3f6849015969108398f918a
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Rod Laver Arena - 29 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769697506~acl=/*~id=96635842378848748922999383921841~hmac=37b6de2f939f505735b4368dec9e673baa8097f2e3f6849015969108398f918a
